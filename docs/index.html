@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pack 57 Palo Alto — 2026-2027 Calendar</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --sidebar-width: 280px;
+      --header-height: 60px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #1a3a5c;
+      color: #fff;
+      padding: 12px 24px;
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    header .subtitle {
+      font-size: 13px;
+      opacity: 0.8;
+    }
+
+    header .badge {
+      background: #e8710a;
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .layout {
+      display: flex;
+      margin-top: var(--header-height);
+      min-height: calc(100vh - var(--header-height));
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: var(--sidebar-width);
+      background: #fff;
+      border-right: 1px solid #e0e0e0;
+      padding: 16px;
+      overflow-y: auto;
+      position: fixed;
+      top: var(--header-height);
+      bottom: 0;
+      left: 0;
+      z-index: 50;
+    }
+
+    .sidebar h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
+    .sidebar .group-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #999;
+      margin: 16px 0 6px 0;
+      padding-top: 12px;
+      border-top: 1px solid #eee;
+    }
+
+    .sidebar .group-label:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .cal-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+      margin-bottom: 2px;
+    }
+
+    .cal-toggle:hover {
+      background: #f0f0f0;
+    }
+
+    .cal-toggle input[type="checkbox"] {
+      display: none;
+    }
+
+    .cal-toggle .swatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+      flex-shrink: 0;
+      transition: opacity 0.2s;
+    }
+
+    .cal-toggle.unchecked .swatch {
+      opacity: 0.3;
+    }
+
+    .cal-toggle .label {
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    .cal-toggle.unchecked .label {
+      color: #aaa;
+      text-decoration: line-through;
+    }
+
+    .sidebar-actions {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .sidebar-actions button {
+      flex: 1;
+      padding: 6px 10px;
+      font-size: 12px;
+      border: 1px solid #ddd;
+      background: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .sidebar-actions button:hover {
+      background: #f0f0f0;
+    }
+
+    /* Main calendar area */
+    .main {
+      flex: 1;
+      margin-left: var(--sidebar-width);
+      padding: 20px 24px;
+    }
+
+    #calendar {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    /* FullCalendar overrides */
+    .fc {
+      font-family: inherit;
+    }
+
+    .fc .fc-toolbar-title {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .fc .fc-button {
+      background: #1a3a5c;
+      border-color: #1a3a5c;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 6px;
+    }
+
+    .fc .fc-button:hover {
+      background: #2a5a8c;
+      border-color: #2a5a8c;
+    }
+
+    .fc .fc-button-active {
+      background: #0d2035 !important;
+      border-color: #0d2035 !important;
+    }
+
+    .fc .fc-daygrid-day-number {
+      font-size: 13px;
+      padding: 6px 8px;
+    }
+
+    .fc .fc-event {
+      border: none;
+      border-radius: 4px;
+      padding: 1px 4px;
+      font-size: 11px;
+      cursor: pointer;
+    }
+
+    .fc .fc-daygrid-event-dot {
+      display: none;
+    }
+
+    .fc .fc-day-today {
+      background: #e8f0fe !important;
+    }
+
+    /* Event tooltip / popup */
+    .event-popup {
+      display: none;
+      position: fixed;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+      padding: 16px 20px;
+      max-width: 360px;
+      z-index: 1000;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .event-popup.visible {
+      display: block;
+    }
+
+    .event-popup .popup-title {
+      font-weight: 600;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .event-popup .popup-date {
+      color: #666;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .event-popup .popup-cal {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .event-popup .popup-desc {
+      color: #555;
+      border-top: 1px solid #eee;
+      padding-top: 8px;
+      margin-top: 4px;
+    }
+
+    /* Legend at bottom */
+    .legend {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    .legend h3 {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+
+    .legend p {
+      font-size: 13px;
+      color: #888;
+      line-height: 1.6;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .sidebar {
+        position: fixed;
+        left: -280px;
+        transition: left 0.3s ease;
+        z-index: 200;
+        box-shadow: 4px 0 16px rgba(0,0,0,0.1);
+      }
+
+      .sidebar.open {
+        left: 0;
+      }
+
+      .main {
+        margin-left: 0;
+        padding: 12px;
+      }
+
+      .mobile-toggle {
+        display: block !important;
+      }
+
+      .overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        z-index: 150;
+      }
+
+      .overlay.visible {
+        display: block;
+      }
+
+      #calendar {
+        padding: 10px;
+      }
+
+      .fc .fc-toolbar {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 4px 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <button class="mobile-toggle" onclick="toggleSidebar()" aria-label="Toggle calendars">☰</button>
+    <h1>Pack 57 Palo Alto</h1>
+    <div class="subtitle">2026-2027 Calendar Proposal</div>
+  </div>
+  <div class="badge">DRAFT — Committee Review</div>
+</header>
+
+<div class="overlay" onclick="toggleSidebar()"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <h2>Calendars</h2>
+    <div class="sidebar-actions">
+      <button onclick="selectAll()">Select All</button>
+      <button onclick="selectNone()">Clear All</button>
+    </div>
+    <div id="calendar-toggles"></div>
+  </aside>
+
+  <main class="main">
+    <div id="calendar"></div>
+    <div class="legend">
+      <h3>About This Calendar</h3>
+      <p>
+        This interactive calendar combines <strong>15 sources</strong> including school calendars
+        (PAUSD, Hausner, JCC, and more), religious holidays (Jewish, Islamic, Christian, Hindu),
+        US federal holidays, and BSA Pacific Skyline Council events. Toggle calendars on/off
+        using the sidebar to see conflicts and plan around them.
+        Click any event for details.
+      </p>
+      <p style="margin-top:8px; font-size:12px; color:#aaa;">
+        Pack 57 Palo Alto · Addison Elementary School · Draft for committee review
+      </p>
+    </div>
+  </main>
+</div>
+
+<div class="event-popup" id="eventPopup"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+<script>
+  let calendar;
+  let allEvents = [];
+  let calendarMeta = {};
+  let activeCalendars = new Set();
+
+  // Calendar groups for sidebar organization
+  const GROUPS = {
+    'Pack Events': ['pack_meeting', 'pack_committee', 'pack_special', 'pack_camping', 'pack_conflict'],
+    'BSA Council & District': ['council', 'training'],
+    'School Calendars': ['pausd', 'hausner', 'jcc'],
+    'Religious Holidays': ['jewish', 'islamic', 'christian', 'hindu'],
+    'Federal Holidays': ['us_federal'],
+  };
+
+  async function init() {
+    // Load data
+    const [eventsRes, metaRes] = await Promise.all([
+      fetch('events.json'),
+      fetch('calendars.json')
+    ]);
+    allEvents = await eventsRes.json();
+    calendarMeta = await metaRes.json();
+
+    // Set initial active calendars
+    for (const [key, meta] of Object.entries(calendarMeta)) {
+      if (meta.checked) activeCalendars.add(key);
+    }
+
+    // Build sidebar toggles
+    buildSidebar();
+
+    // Initialize FullCalendar
+    const calendarEl = document.getElementById('calendar');
+    calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      initialDate: '2026-09-01',
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,dayGridYear'
+      },
+      views: {
+        dayGridYear: {
+          buttonText: 'Year'
+        },
+        dayGridMonth: {
+          buttonText: 'Month'
+        }
+      },
+      events: getFilteredEvents(),
+      eventClick: function(info) {
+        info.jsEvent.preventDefault();
+        showPopup(info.event, info.jsEvent);
+      },
+      dayMaxEvents: 4,
+      moreLinkClick: 'popover',
+      fixedWeekCount: false,
+      height: 'auto',
+    });
+
+    calendar.render();
+
+    // Close popup on click outside
+    document.addEventListener('click', function(e) {
+      const popup = document.getElementById('eventPopup');
+      if (!popup.contains(e.target)) {
+        popup.classList.remove('visible');
+      }
+    });
+  }
+
+  function getFilteredEvents() {
+    return allEvents.filter(e => activeCalendars.has(e.calendar));
+  }
+
+  function refreshCalendar() {
+    calendar.removeAllEvents();
+    calendar.addEventSource(getFilteredEvents());
+  }
+
+  function buildSidebar() {
+    const container = document.getElementById('calendar-toggles');
+    container.innerHTML = '';
+
+    for (const [groupName, calKeys] of Object.entries(GROUPS)) {
+      const groupLabel = document.createElement('div');
+      groupLabel.className = 'group-label';
+      groupLabel.textContent = groupName;
+      container.appendChild(groupLabel);
+
+      for (const key of calKeys) {
+        const meta = calendarMeta[key];
+        if (!meta) continue;
+
+        const toggle = document.createElement('label');
+        toggle.className = 'cal-toggle' + (activeCalendars.has(key) ? '' : ' unchecked');
+        toggle.innerHTML = `
+          <input type="checkbox" value="${key}" ${activeCalendars.has(key) ? 'checked' : ''}>
+          <span class="swatch" style="background: ${meta.color}"></span>
+          <span class="label">${meta.label}</span>
+        `;
+
+        toggle.querySelector('input').addEventListener('change', function() {
+          if (this.checked) {
+            activeCalendars.add(key);
+            toggle.classList.remove('unchecked');
+          } else {
+            activeCalendars.delete(key);
+            toggle.classList.add('unchecked');
+          }
+          refreshCalendar();
+        });
+
+        container.appendChild(toggle);
+      }
+    }
+  }
+
+  function selectAll() {
+    for (const key of Object.keys(calendarMeta)) {
+      activeCalendars.add(key);
+    }
+    buildSidebar();
+    refreshCalendar();
+  }
+
+  function selectNone() {
+    activeCalendars.clear();
+    buildSidebar();
+    refreshCalendar();
+  }
+
+  function showPopup(event, jsEvent) {
+    const popup = document.getElementById('eventPopup');
+    const meta = calendarMeta[event.extendedProps.calendar] || {};
+
+    const startStr = event.start ? event.start.toLocaleDateString('en-US', {
+      weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'
+    }) : '';
+
+    let endStr = '';
+    if (event.end) {
+      // FullCalendar end is exclusive, so subtract 1 day for display
+      const displayEnd = new Date(event.end);
+      displayEnd.setDate(displayEnd.getDate() - 1);
+      if (displayEnd.toDateString() !== event.start.toDateString()) {
+        endStr = ' – ' + displayEnd.toLocaleDateString('en-US', {
+          weekday: 'long', month: 'long', day: 'numeric'
+        });
+      }
+    }
+
+    const desc = event.extendedProps.description || '';
+
+    popup.innerHTML = `
+      <div class="popup-title">${event.title}</div>
+      <div class="popup-date">${startStr}${endStr}</div>
+      <span class="popup-cal" style="background: ${meta.color || '#999'}; color: ${event.textColor || '#fff'}">
+        ${meta.label || event.extendedProps.calendar}
+      </span>
+      ${desc ? `<div class="popup-desc">${desc}</div>` : ''}
+    `;
+
+    // Position near click
+    const x = Math.min(jsEvent.clientX + 10, window.innerWidth - 380);
+    const y = Math.min(jsEvent.clientY + 10, window.innerHeight - 300);
+    popup.style.left = x + 'px';
+    popup.style.top = y + 'px';
+    popup.classList.add('visible');
+
+    jsEvent.stopPropagation();
+  }
+
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.querySelector('.overlay').classList.toggle('visible');
+  }
+
+  // Init on load
+  init();
+</script>
+
+</body>
+</html>

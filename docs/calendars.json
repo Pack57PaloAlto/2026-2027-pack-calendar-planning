@@ -1,0 +1,77 @@
+{
+  "pack_meeting": {
+    "label": "Pack Meetings",
+    "color": "#1a73e8",
+    "checked": true
+  },
+  "pack_committee": {
+    "label": "Committee Meetings",
+    "color": "#5f6368",
+    "checked": false
+  },
+  "pack_special": {
+    "label": "Special Events (Derby, Service)",
+    "color": "#e8710a",
+    "checked": true
+  },
+  "pack_camping": {
+    "label": "Camping Trips",
+    "color": "#137333",
+    "checked": true
+  },
+  "pack_conflict": {
+    "label": "Conflicts / No-Meeting Days",
+    "color": "#d93025",
+    "checked": true
+  },
+  "council": {
+    "label": "PacSky Council / District",
+    "color": "#9334e6",
+    "checked": false
+  },
+  "training": {
+    "label": "Leader Training (PacSky)",
+    "color": "#78909c",
+    "checked": false
+  },
+  "pausd": {
+    "label": "PAUSD No-School Days",
+    "color": "#ea4335",
+    "checked": true
+  },
+  "hausner": {
+    "label": "Hausner (Jewish Day School)",
+    "color": "#fbbc04",
+    "checked": false
+  },
+  "jcc": {
+    "label": "JCC Closures",
+    "color": "#ff6d01",
+    "checked": false
+  },
+  "jewish": {
+    "label": "Jewish Holidays",
+    "color": "#1a73e8",
+    "checked": true
+  },
+  "islamic": {
+    "label": "Islamic Holidays",
+    "color": "#0d652d",
+    "checked": true
+  },
+  "christian": {
+    "label": "Christian Holidays",
+    "color": "#7b1fa2",
+    "checked": true
+  },
+  "hindu": {
+    "label": "Hindu / Indian Holidays",
+    "color": "#e65100",
+    "checked": true
+  },
+  "us_federal": {
+    "label": "US Federal Holidays",
+    "color": "#c62828",
+    "checked": true
+  }
+}
