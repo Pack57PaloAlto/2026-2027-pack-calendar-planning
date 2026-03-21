@@ -514,10 +514,10 @@ def main():
     # Also write calendar metadata for the UI
     calendars = {
         "pack_meeting":   {"label": "Pack Meetings", "color": COLORS["pack_meeting"]["color"], "checked": True},
-        "pack_committee": {"label": "Committee Meetings", "color": COLORS["pack_committee"]["color"], "checked": False},
+        "pack_committee": {"label": "Committee Meetings", "color": COLORS["pack_committee"]["color"], "checked": True},
         "pack_special":   {"label": "Special Events (Derby, Service)", "color": COLORS["pack_special"]["color"], "checked": True},
         "pack_camping":   {"label": "Camping Trips", "color": COLORS["pack_camping"]["color"], "checked": True},
-        "pack_conflict":  {"label": "Conflicts / No-Meeting Days", "color": COLORS["pack_conflict"]["color"], "checked": True},
+        "pack_conflict":  {"label": "Conflicts / No-Meeting Days", "color": COLORS["pack_conflict"]["color"], "checked": False},
         "council":        {"label": "PacSky Council / District", "color": COLORS["council"]["color"], "checked": False},
         "training":       {"label": "Leader Training (PacSky)", "color": COLORS["training"]["color"], "checked": False},
         "pausd":          {"label": "PAUSD No-School Days", "color": COLORS["pausd"]["color"], "checked": True},
