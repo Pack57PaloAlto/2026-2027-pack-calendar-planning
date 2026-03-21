@@ -1433,6 +1433,15 @@
     "description": "6:30 PM. Moved to 2nd Thursday to be before winter break. Inclusive holiday celebration \u2014 Hanukkah (12/4-12) is ongoing, Christmas (12/25) and winter solstice (12/21) ahead. Consider activities that honor the "
   },
   {
+    "title": "Pinewood Derby Build Session #1",
+    "start": "2026-12-12",
+    "allDay": true,
+    "calendar": "pack_special",
+    "color": "#1565c0",
+    "textColor": "#fff",
+    "description": "10:00 AM - 12:00 PM. Saturday workshop for car building. 2 days after Dec pack meeting \u2014 kits distributed there."
+  },
+  {
     "title": "District: Stanford District Committee",
     "start": "2026-12-17",
     "allDay": true,
@@ -1645,7 +1654,7 @@
     "calendar": "pack_meeting",
     "color": "#1a73e8",
     "textColor": "#fff",
-    "description": "6:30 PM. Theme: Pinewood Derby Kickoff. Distribute kits & rules."
+    "description": "6:30 PM. Theme: Pinewood Derby progress check. Kits distributed at Dec meeting; Build #1 was Dec 12, Build #2 is Feb 6."
   },
   {
     "title": "District: Stanford District Committee",
@@ -1664,15 +1673,6 @@
     "color": "#c62828",
     "textColor": "#fff",
     "description": "New Year for Trees"
-  },
-  {
-    "title": "Pinewood Derby Build Session #1",
-    "start": "2027-01-23",
-    "allDay": true,
-    "calendar": "pack_special",
-    "color": "#1565c0",
-    "textColor": "#fff",
-    "description": "10:00 AM - 12:00 PM. Saturday workshop for car building."
   },
   {
     "title": "District: Stanford Eagle Boards",

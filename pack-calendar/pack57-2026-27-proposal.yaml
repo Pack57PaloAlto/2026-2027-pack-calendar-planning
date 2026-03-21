@@ -259,6 +259,14 @@ december:
       Inclusive holiday celebration — Hanukkah (12/4-12) is ongoing,
       Christmas (12/25) and winter solstice (12/21) ahead.
       Consider activities that honor the season broadly.
+      Distribute Pinewood Derby kits & rules — Build Session #1 is Sat 12/12!
+
+  - date: 2026-12-12  # Sat
+    day: Saturday
+    event: "Pinewood Derby Build Session #1"
+    type: special_event
+    time: "10:00 AM - 12:00 PM"
+    notes: "Saturday workshop for car building. 2 days after Dec pack meeting — kits distributed there."
 
   - date: 2026-12-19  # Sat
     day: Saturday
@@ -301,14 +309,7 @@ january:
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
-    notes: "Theme: Pinewood Derby Kickoff. Distribute kits & rules."
-
-  - date: 2027-01-23  # Sat
-    day: Saturday
-    event: "Pinewood Derby Build Session #1"
-    type: special_event
-    time: "10:00 AM - 12:00 PM"
-    notes: "Saturday workshop for car building."
+    notes: "Theme: Pinewood Derby progress check. Kits distributed at Dec meeting; Build #1 was Dec 12, Build #2 is Feb 6."
 
 # ============================================================================
 # FEBRUARY 2027
