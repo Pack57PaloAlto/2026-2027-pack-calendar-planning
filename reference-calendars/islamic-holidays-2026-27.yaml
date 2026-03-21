@@ -1,0 +1,80 @@
+# ============================================================================
+# Islamic Holidays — 2026-2027
+# ============================================================================
+# Major Islamic holidays relevant to Pack 57 scheduling.
+# The Islamic calendar is lunar; dates shift ~11 days earlier each
+# Gregorian year. Actual dates depend on moon sighting and may vary
+# by ±1 day. Holidays begin at sunset the evening before.
+#
+# Sources: fiqhcouncil.org, timeanddate.com, chicagohajj.com
+# ============================================================================
+
+calendar: Islamic Holidays
+coverage: September 2026 – May 2027 (pack season), plus key 2026 dates
+note: >
+  All dates are estimates based on astronomical calculations.
+  Actual observance depends on local moon sighting and may shift by 1 day.
+
+# --- Full Year 2026 (for context) ---
+year_2026:
+  - date: 2026-02-18
+    day: Wednesday
+    holiday: Ramadan begins (estimated)
+    significance: Holy month of fasting from dawn to sunset
+    duration: "Feb 18 – Mar 19 (~30 days)"
+
+  - date: 2026-03-20
+    day: Friday
+    holiday: Eid al-Fitr (estimated)
+    significance: Festival of Breaking the Fast; marks end of Ramadan
+    duration: "Mar 19-20 (begins at sunset Mar 19)"
+    observance: major
+
+  - date: 2026-05-27
+    day: Wednesday
+    holiday: Eid al-Adha (estimated)
+    significance: Festival of Sacrifice; honors Ibrahim's devotion
+    duration: "May 26-29 (up to 4 days)"
+    observance: major
+
+  - date: 2026-06-17
+    day: Wednesday
+    holiday: Islamic New Year / 1st Muharram (estimated)
+    significance: First day of the Islamic calendar year 1448 AH
+
+  - date: 2026-08-16
+    day: Sunday
+    holiday: Mawlid al-Nabi (estimated)
+    significance: Birthday of Prophet Muhammad (PBUH)
+
+# --- Pack Season: Sep 2026 – May 2027 ---
+pack_season:
+  - date: 2027-02-08
+    day: Monday
+    holiday: Ramadan begins (estimated)
+    significance: Holy month of fasting
+    duration: "Feb 8 – Mar 9 (~30 days)"
+    pack_note: >
+      Ramadan overlaps with Feb pack meeting (2/18 Thu) and most of March.
+      Families observing Ramadan fast during daylight; evening events
+      may coincide with iftar (breaking fast at sunset ~6 PM in Feb/Mar).
+      Consider offering snacks/water at meetings and being flexible
+      with attendance.
+
+  - date: 2027-03-10
+    day: Wednesday
+    holiday: Eid al-Fitr (estimated)
+    significance: Festival of Breaking the Fast; end of Ramadan
+    duration: "Mar 9-10 (begins at sunset Mar 9)"
+    pack_note: >
+      Wednesday; March pack meeting is 3/18 Thu — no direct conflict.
+      Spring camping is 3/20-21 Sat-Sun, well after Eid.
+
+  - date: 2027-05-17
+    day: Monday
+    holiday: Eid al-Adha (estimated)
+    significance: Festival of Sacrifice
+    duration: "May 16-19 (up to 4 days)"
+    pack_note: >
+      Close to final pack meeting (5/20 Thu). Some families may be
+      celebrating Eid al-Adha weekend of May 16-17.

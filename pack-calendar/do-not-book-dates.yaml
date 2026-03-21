@@ -1,0 +1,385 @@
+# ============================================================================
+# UNIFIED DO-NOT-BOOK DATES — Pack 57 Palo Alto 2026-2027
+# ============================================================================
+# This file consolidates ALL conflict dates from every reference calendar
+# (schools, religious holidays, federal holidays, council events) into a
+# single "do not schedule pack events on these dates" list.
+#
+# Pack season: September 2026 – May 2027
+#
+# Severity levels:
+#   HARD   — Do not schedule anything. Schools closed, major holiday,
+#            or high likelihood of family unavailability.
+#   SOFT   — Avoid if possible. Some families affected; consider
+#            attendance impact. OK for optional/low-stakes events.
+#   NOTE   — Awareness only. Not a scheduling blocker but worth knowing.
+#
+# Sources: All files in ../reference-calendars/
+# ============================================================================
+
+pack: Pack 57 Palo Alto
+season: September 2026 – May 2027
+generated_from:
+  - pausd-2026-27.yaml
+  - pausd-elementary-schools-2026-27.yaml
+  - hausner-2026-27.yaml
+  - jcc-paloalto-2026.yaml
+  - emerson-montessori-2025-26.yaml
+  - nueva-2026-27.yaml
+  - bowman-2026-27.yaml
+  - keys-2026-27.yaml
+  - st-raymond-2026-27.yaml
+  - pacific-skyline-council-2026-27.yaml
+  - jewish-holidays-2026-27.yaml
+  - islamic-holidays-2026-27.yaml
+  - christian-holidays-2026-27.yaml
+  - hindu-holidays-2026-27.yaml
+  - us-federal-holidays-2026-27.yaml
+
+# ============================================================================
+# SEPTEMBER 2026
+# ============================================================================
+september_2026:
+  - date: 2026-09-07
+    day: Monday
+    severity: HARD
+    conflict: Labor Day
+    sources: [US Federal Holiday, PAUSD closed, all schools closed]
+
+  - dates: 2026-09-11 to 2026-09-13
+    days: Friday–Sunday
+    severity: HARD
+    conflict: Rosh Hashanah (Jewish New Year)
+    sources: [Jewish holidays, Hausner closed, JCC closed (9/12)]
+    note: "Begins sunset Fri 9/11. Pack kickoff moved to 9/10 Thu (2nd Thursday)"
+
+  - date: 2026-09-20
+    day: Sunday
+    severity: NOTE
+    conflict: "Arrowpalooza (PacSky council event) — same day as Erev Yom Kippur"
+    sources: [Pacific Skyline Council]
+    note: "Council encourages attendance but Yom Kippur begins at sunset"
+
+  - dates: 2026-09-20 to 2026-09-21
+    days: Sunday–Monday
+    severity: HARD
+    conflict: Yom Kippur (Day of Atonement)
+    sources: [Jewish holidays, Hausner closed, JCC closed]
+    note: "Begins sunset Sun 9/20; 25-hour fast through Mon 9/21 nightfall"
+
+  - dates: 2026-09-25 to 2026-10-02
+    days: Friday–Friday
+    severity: SOFT
+    conflict: Sukkot (Feast of Booths)
+    sources: [Jewish holidays, Hausner may close some days]
+    note: "First 2 days (9/26-27 Sat-Sun) are full yom tov. Weekdays 9/28-10/1 are Chol HaMoed (semi-holiday) — den meetings can proceed but some families may be absent"
+
+# ============================================================================
+# OCTOBER 2026
+# ============================================================================
+october_2026:
+  - dates: 2026-10-02 to 2026-10-04
+    days: Friday–Sunday
+    severity: HARD
+    conflict: Shemini Atzeret / Simchat Torah
+    sources: [Jewish holidays, Hausner closed]
+    note: "Conclusion of fall Jewish holiday season"
+
+  - dates: 2026-10-10 to 2026-10-18
+    days: Saturday–Sunday
+    severity: NOTE
+    conflict: Sharad Navratri (Hindu)
+    sources: [Hindu holidays]
+    note: "Nine nights of worship. Some families may observe; awareness only"
+
+  - date: 2026-10-12
+    day: Monday
+    severity: SOFT
+    conflict: Columbus Day / Indigenous Peoples' Day
+    sources: [US Federal Holiday]
+    note: "PAUSD in session; most Palo Alto schools open. Federal offices closed"
+
+  - date: 2026-10-19
+    day: Monday
+    severity: NOTE
+    conflict: Dussehra (Hindu)
+    sources: [Hindu holidays]
+    note: "Victory of good over evil. Awareness only"
+
+# ============================================================================
+# NOVEMBER 2026
+# ============================================================================
+november_2026:
+  - dates: 2026-11-05 to 2026-11-06
+    days: Thursday–Friday
+    severity: SOFT
+    conflict: Hausner Parent/Teacher Conferences
+    sources: [Hausner calendar]
+    note: "Hausner families may be unavailable Thu-Fri. Pack committee is 11/5 (virtual) — proceed but note limited attendance from Hausner families"
+
+  - dates: 2026-11-06 to 2026-11-10
+    days: "Friday–Tuesday (5 days)"
+    severity: NOTE
+    conflict: Diwali festival period (Hindu)
+    sources: [Hindu holidays]
+    note: "Dhanteras 11/6 Fri, Choti Diwali 11/7 Sat, Diwali 11/8 Sun, Govardhan Puja 11/9 Mon, Bhai Dooj 11/10 Tue. Main celebration is weekend — no weekday pack conflict"
+
+  - date: 2026-11-11
+    day: Wednesday
+    severity: HARD
+    conflict: Veterans Day
+    sources: [US Federal Holiday, PAUSD closed]
+
+  - dates: 2026-11-23 to 2026-11-27
+    days: Monday–Friday
+    severity: HARD
+    conflict: Thanksgiving Break
+    sources: [US Federal Holiday (11/26), PAUSD closed all week, all schools closed]
+
+# ============================================================================
+# DECEMBER 2026
+# ============================================================================
+december_2026:
+  - dates: 2026-12-04 to 2026-12-12
+    days: Friday–Saturday
+    severity: NOTE
+    conflict: Hanukkah (Festival of Lights)
+    sources: [Jewish holidays]
+    note: "Not a work-restricted holiday. Dec pack meeting (12/10 Thu) falls during Hanukkah — great opportunity for inclusive holiday celebration"
+
+  - dates: 2026-12-19 to 2027-01-05
+    days: Saturday–Tuesday
+    severity: HARD
+    conflict: Winter Break
+    sources: [PAUSD 12/19-1/5, Hausner 12/21-1/1, Emerson ~12/22-1/2]
+    note: "All schools out. No pack events during this period"
+
+  - date: 2026-12-24
+    day: Thursday
+    severity: HARD
+    conflict: Christmas Eve
+    sources: [Christian holidays, within winter break]
+
+  - date: 2026-12-25
+    day: Friday
+    severity: HARD
+    conflict: Christmas Day
+    sources: [US Federal Holiday, Christian holidays, JCC closed, within winter break]
+
+# ============================================================================
+# JANUARY 2027
+# ============================================================================
+january_2027:
+  - date: 2027-01-01
+    day: Friday
+    severity: HARD
+    conflict: New Year's Day
+    sources: [US Federal Holiday, within winter break]
+
+  - date: 2027-01-05
+    day: Tuesday
+    severity: HARD
+    conflict: "PAUSD staff development / winter break ends"
+    sources: [PAUSD calendar]
+    note: "Students return 1/6 Wed"
+
+  - date: 2027-01-14
+    day: Thursday
+    severity: NOTE
+    conflict: Makar Sankranti / Pongal (Hindu harvest festival)
+    sources: [Hindu holidays]
+    note: "Awareness only. No pack event this day (committee 1/7, pack meeting 1/21)"
+
+  - date: 2027-01-18
+    day: Monday
+    severity: HARD
+    conflict: Martin Luther King Jr. Day
+    sources: [US Federal Holiday, PAUSD closed, all schools closed]
+
+# ============================================================================
+# FEBRUARY 2027
+# ============================================================================
+february_2027:
+  - date: 2027-02-08
+    day: Monday
+    severity: NOTE
+    conflict: Ramadan begins (estimated)
+    sources: [Islamic holidays]
+    note: >
+      Month-long fasting from dawn to sunset (~Feb 8 – Mar 9).
+      Not a scheduling blocker but be mindful: offer snacks/water at
+      evening meetings, be flexible with attendance. Sunset is ~5:50 PM
+      in Feb, ~6:15 PM in Mar — iftar may coincide with meeting start.
+
+  - date: 2027-02-10
+    day: Wednesday
+    severity: NOTE
+    conflict: Ash Wednesday (Christian — beginning of Lent)
+    sources: [Christian holidays]
+    note: "Awareness only. Some families may attend services"
+
+  - dates: 2027-02-11 to 2027-02-12
+    days: Thursday–Friday
+    severity: HARD
+    conflict: PAUSD Local Holidays
+    sources: [PAUSD calendar]
+    note: "No school Thu-Fri. Presidents' Day weekend follows (Mon 2/15)"
+
+  - date: 2027-02-15
+    day: Monday
+    severity: HARD
+    conflict: Presidents' Day
+    sources: [US Federal Holiday, PAUSD closed, Hausner closed]
+    note: "Long weekend Thu 2/11 – Mon 2/15. Many families travel"
+
+# ============================================================================
+# MARCH 2027
+# ============================================================================
+march_2027:
+  - dates: 2027-03-09 to 2027-03-10
+    days: Tuesday–Wednesday
+    severity: SOFT
+    conflict: Eid al-Fitr (estimated — end of Ramadan)
+    sources: [Islamic holidays]
+    note: "Begins sunset Tue 3/9. Some families may celebrate Wed 3/10. No pack event conflict (pack meeting is 3/18)"
+
+  - dates: 2027-03-11 to 2027-03-12
+    days: Thursday–Friday
+    severity: SOFT
+    conflict: Hausner Parent/Teacher Conferences
+    sources: [Hausner calendar]
+    note: "No classes at Hausner. Some families unavailable"
+
+  - dates: 2027-03-12 to 2027-03-13
+    days: Friday–Saturday
+    severity: SOFT
+    conflict: Nueva Innovative Learning Conference
+    sources: [Nueva calendar]
+    note: "Nueva families may be engaged in school event"
+
+  - date: 2027-03-15
+    day: Monday
+    severity: HARD
+    conflict: PAUSD Local Holiday
+    sources: [PAUSD calendar]
+
+  - date: 2027-03-16
+    day: Tuesday
+    severity: HARD
+    conflict: PAUSD Staff Development Day
+    sources: [PAUSD calendar]
+    note: "No school Mon-Tue (3/15-16)"
+
+  - date: 2027-03-21
+    day: Sunday
+    severity: NOTE
+    conflict: Palm Sunday (Christian)
+    sources: [Christian holidays]
+    note: "Sunday — spring camping returns Sunday AM. Some families may attend church services"
+
+  - date: 2027-03-22
+    day: Monday
+    severity: SOFT
+    conflict: Holi (Hindu Festival of Colors)
+    sources: [Hindu holidays]
+    note: "Monday — no pack event conflict"
+
+  - dates: 2027-03-22 to 2027-03-23
+    days: Monday–Tuesday
+    severity: SOFT
+    conflict: Purim (Jewish)
+    sources: [Jewish holidays]
+    note: "Festive holiday (not work-restricted). Begins sunset Mon 3/22"
+
+  - date: 2027-03-26
+    day: Friday
+    severity: SOFT
+    conflict: Good Friday (Christian)
+    sources: [Christian holidays]
+    note: "Many families observe; some schools/businesses close (not PAUSD). Friday — no pack event conflict"
+
+  - date: 2027-03-28
+    day: Sunday
+    severity: SOFT
+    conflict: Easter Sunday (Christian)
+    sources: [Christian holidays]
+    note: "Major Christian holiday. Sunday — no pack event conflict. March pack meeting was 3/18"
+
+# ============================================================================
+# APRIL 2027
+# ============================================================================
+april_2027:
+  - dates: 2027-04-05 to 2027-04-09
+    days: Monday–Friday
+    severity: HARD
+    conflict: PAUSD Spring Break
+    sources: [PAUSD calendar]
+    note: "Full week — no school, many families travel"
+
+  - dates: 2027-04-19 to 2027-04-30
+    days: Monday–Friday (12 days)
+    severity: HARD
+    conflict: Hausner Pesach Break
+    sources: [Hausner calendar, Jewish holidays (Passover 4/21-29)]
+    note: >
+      Hausner closes 4/19-4/30 for extended Pesach break.
+      Passover itself is Apr 21-29 (first 2 and last 2 days are
+      work-restricted yom tov). Blue & Gold is Apr 15 — safely before
+      this entire period.
+
+# ============================================================================
+# MAY 2027
+# ============================================================================
+may_2027:
+  - dates: 2027-05-16 to 2027-05-19
+    days: Sunday–Wednesday
+    severity: SOFT
+    conflict: Eid al-Adha (estimated — Festival of Sacrifice)
+    sources: [Islamic holidays]
+    note: "Up to 4 days. Final pack meeting is 5/20 Thu — day after Eid. Some families may still be celebrating"
+
+  - date: 2027-05-16
+    day: Sunday
+    severity: NOTE
+    conflict: Pentecost (Christian)
+    sources: [Christian holidays]
+    note: "Sunday — awareness only"
+
+  - date: 2027-05-31
+    day: Monday
+    severity: HARD
+    conflict: Memorial Day
+    sources: [US Federal Holiday, PAUSD closed, all schools closed]
+    note: "After pack season ends. Long weekend — families travel"
+
+# ============================================================================
+# SUMMARY: HARD BLOCKS BY MONTH (quick reference)
+# ============================================================================
+# These are the dates where NO pack events should be scheduled:
+#
+# SEP 2026:  7 Mon (Labor Day)
+#            11-13 Fri-Sun (Rosh Hashanah)
+#            20-21 Sun-Mon (Yom Kippur)
+#
+# OCT 2026:  2-4 Fri-Sun (Shemini Atzeret/Simchat Torah)
+#
+# NOV 2026:  11 Wed (Veterans Day)
+#            23-27 Mon-Fri (Thanksgiving)
+#
+# DEC 2026:  19-Jan 5 (Winter Break / Christmas / New Year's)
+#
+# JAN 2027:  1 Fri (New Year's — within winter break)
+#            5 Tue (PAUSD staff dev)
+#            18 Mon (MLK Day)
+#
+# FEB 2027:  11-12 Thu-Fri (PAUSD Local Holidays)
+#            15 Mon (Presidents' Day)
+#
+# MAR 2027:  15 Mon (PAUSD Local Holiday)
+#            16 Tue (PAUSD Staff Dev)
+#
+# APR 2027:  5-9 Mon-Fri (PAUSD Spring Break)
+#            19-30 Mon-Fri (Hausner Pesach Break / Passover)
+#
+# MAY 2027:  31 Mon (Memorial Day)
+# ============================================================================

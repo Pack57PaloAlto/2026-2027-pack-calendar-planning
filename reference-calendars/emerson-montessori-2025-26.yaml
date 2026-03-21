@@ -1,0 +1,87 @@
+# Emerson School (Montessori) Palo Alto 2025-2026 Major Dates
+# Source: https://www.emerson-school.org/wp-content/uploads/2025/02/2025-2026-Major-Dates-Calendar.pdf
+# Note: This is Emerson Montessori School on W Bayshore Rd, Palo Alto
+#       (NOT Emerson Dual Language Elementary or former Hausner)
+
+school: Emerson Montessori School
+type: private_montessori
+year: 2025-2026
+
+key_dates:
+  new_family_welcome: 2025-08-28
+  first_day_of_school: 2025-09-02  # Full days for grades 2-8
+  last_day_of_school: 2026-06-04   # Noon dismissal
+  graduation: 2026-06-05           # Class of 2026
+
+notes:
+  - "Grades 2-8 start full days Sept 2"
+  - "First Grade: half days (noon) Sept 2-3, child care available"
+  - "Young Fives & Kindergarten: half days (11:45am) Sept 2-12"
+
+early_release_days:
+  - 2025-09-26
+  - 2025-10-31
+  - 2025-11-25  # Grand Day
+  - 2025-12-19  # Winter Sharing Festivities
+  - 2026-01-30
+  - 2026-02-20
+  - 2026-04-24
+
+holidays_and_breaks:
+  # October
+  - date: 2025-10-16
+    description: No School - Parent-Teacher Conferences (8am-2pm)
+  - date: 2025-10-17
+    description: No School
+
+  # November
+  - date: 2025-11-10
+    description: No School - ISACS Self-Study
+  - start: 2025-11-26
+    end: 2025-11-28
+    description: Thanksgiving Break
+
+  # December / January
+  - date: 2025-12-01
+    description: No School - Report Writing
+  - start: 2025-12-22
+    end: 2026-01-02
+    description: Winter Break
+
+  # January
+  - date: 2026-01-19
+    description: No School - MLK Day
+
+  # February
+  - start: 2026-02-12
+    end: 2026-02-16
+    description: Mid-Winter Break
+
+  # March
+  - date: 2026-03-09
+    description: No School - ISACS Self-Study
+  - date: 2026-03-26
+    description: No School - Parent-Teacher Conferences (8am-2pm)
+  - start: 2026-03-27
+    end: 2026-04-03
+    description: Spring Break
+
+  # May
+  - date: 2026-05-22
+    description: No School - Report Writing
+  - date: 2026-05-25
+    description: No School - Memorial Day
+
+no_school_dates_summary:
+  - 2025-10-16..17   # P/T Conferences
+  - 2025-11-10       # ISACS
+  - 2025-11-26..28   # Thanksgiving
+  - 2025-12-01       # Report Writing
+  - 2025-12-22..2026-01-02  # Winter Break
+  - 2026-01-19       # MLK Day
+  - 2026-02-12..16   # Mid-Winter Break
+  - 2026-03-09       # ISACS
+  - 2026-03-26       # P/T Conferences
+  - 2026-03-27..04-03  # Spring Break
+  - 2026-05-22       # Report Writing
+  - 2026-05-25       # Memorial Day

@@ -1,0 +1,60 @@
+# Oshman Family JCC (Palo Alto) Holiday Closures & Schedule
+# Source: https://paloaltojcc.org/hours-schedule/
+# Note: JCC preschool calendar not publicly available; these are facility closures
+#       Preschool may have additional closures for Jewish holidays
+
+school: Oshman Family JCC (Leslie Family Preschool)
+type: community_center_preschool
+year: 2026  # Calendar year; school year calendar behind login
+
+facility_hours:
+  admin_offices: "Monday-Friday, 9:00 AM - 5:00 PM"
+  fitness_center:
+    weekdays: "Mon-Thu 6:00 AM - 9:00 PM; Fri 6:00 AM - 8:00 PM"
+    weekends: "Sat-Sun 7:00 AM - 6:00 PM"
+
+complete_closures:  # Entire facility closed
+  - date: 2026-09-12
+    description: Rosh Hashanah Day 1
+  - date: 2026-09-21
+    description: Yom Kippur
+  - date: 2026-12-25
+    description: Christmas
+
+admin_closures:  # Admin offices closed, fitness may be open
+  - date: 2026-01-01
+    description: New Year's Day
+  - date: 2026-01-19
+    description: MLK Day
+  - date: 2026-02-16
+    description: Presidents' Day
+  - dates: [2026-04-02, 2026-04-03]
+    description: Passover Days 1-2
+  - date: 2026-05-22
+    description: Shavuot Day 1
+  - date: 2026-05-25
+    description: Memorial Day (Fitness & Admin Closed)
+  - date: 2026-06-19
+    description: Juneteenth
+  - date: 2026-09-07
+    description: Labor Day
+  - date: 2026-09-13
+    description: Rosh Hashanah Day 2
+  - date: 2026-09-26
+    description: Sukkot Day 1
+  - date: 2026-10-04
+    description: Simchat Torah
+  - dates: [2026-11-26, 2026-11-27]
+    description: Thanksgiving & Day After
+
+jewish_holiday_dates_2026_27:
+  note: >
+    For Cub Scout planning, be aware of these Jewish holidays when
+    Hausner and JCC families will be unavailable:
+  rosh_hashanah: [2026-09-12, 2026-09-13]
+  yom_kippur: 2026-09-21
+  sukkot_start: 2026-09-26
+  simchat_torah: 2026-10-04
+  hanukkah_start: 2026-12-04
+  passover_2027: 2027-04-19  # approx, check lunar calendar
+  shavuot_2027: [2027-06-11, 2027-06-12]

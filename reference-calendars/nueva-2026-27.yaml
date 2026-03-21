@@ -1,0 +1,34 @@
+# Nueva School 2026-2027 Calendar
+# Source: https://www.nuevaschool.org/about/news-events/calendar
+# Note: Full calendar requires login; limited public data available
+#       PDF was not machine-readable; dates below from partial extraction
+#       and cross-referencing with 2025-26 patterns
+
+school: The Nueva School
+type: private_gifted
+year: 2026-2027
+
+notes:
+  - "Nueva's detailed calendar is behind a login (nuevaschool.myschoolapp.com)"
+  - "Public calendar shows limited events for prospective families"
+  - "Printable 2026-27 calendar available as Google Doc (login may be required)"
+  - "Dates below are approximate based on available information"
+
+known_events:
+  - date: 2026-03-12
+    description: No School - Innovative Learning Conference (Day 1)
+  - date: 2026-03-13
+    description: No School - Innovative Learning Conference (Day 2)
+
+estimated_breaks:
+  note: >
+    Nueva typically follows a similar break schedule to other Palo Alto
+    private schools. The following are estimates based on prior years.
+    Verify with the school directly.
+  winter_break: "Late December through early January (~Dec 19 - Jan 4)"
+  spring_break: "Typically 1-2 weeks in March or April"
+  thanksgiving: "Full week of Thanksgiving"
+
+contact:
+  url: https://www.nuevaschool.org/about/news-events/calendar
+  note: "For exact dates, access the internal calendar or contact the school"

@@ -1,0 +1,104 @@
+# ============================================================================
+# Christian Holidays — 2026-2027
+# ============================================================================
+# Major Christian holidays relevant to Pack 57 scheduling.
+# Includes both fixed-date and moveable feasts (Easter cycle).
+# Dates follow the Western/Gregorian calendar (Catholic & Protestant).
+# Eastern Orthodox dates may differ.
+#
+# Sources: timeanddate.com, calendarlabs.com, usccb.org
+# ============================================================================
+
+calendar: Christian Holidays
+coverage: September 2026 – May 2027 (pack season), plus full year context
+
+# --- Full Year 2026 ---
+year_2026:
+  - date: 2026-01-06
+    day: Tuesday
+    holiday: Epiphany
+    significance: Celebrates the visit of the Magi; end of Christmas season
+
+  - date: 2026-02-18
+    day: Wednesday
+    holiday: Ash Wednesday
+    significance: Beginning of Lent (40 days of fasting/penance before Easter)
+
+  - date: 2026-03-29
+    day: Sunday
+    holiday: Palm Sunday
+    significance: Commemorates Jesus's triumphal entry into Jerusalem
+
+  - date: 2026-04-03
+    day: Friday
+    holiday: Good Friday
+    significance: Commemorates the crucifixion of Jesus
+    observance: major
+    note: "Not a US federal holiday but widely observed; many schools/businesses close"
+
+  - date: 2026-04-05
+    day: Sunday
+    holiday: Easter Sunday
+    significance: Celebrates the resurrection of Jesus Christ
+    observance: major
+
+  - date: 2026-05-24
+    day: Sunday
+    holiday: Pentecost
+    significance: Celebrates the descent of the Holy Spirit; birth of the Church
+
+  - date: 2026-12-25
+    day: Friday
+    holiday: Christmas Day
+    significance: Celebrates the birth of Jesus Christ
+    observance: major / US federal holiday
+
+# --- Pack Season: Sep 2026 – May 2027 ---
+pack_season:
+  - date: 2026-12-24
+    day: Thursday
+    holiday: Christmas Eve
+    significance: Evening before Christmas; widely celebrated with services and family
+    pack_note: "During winter break — no pack events"
+
+  - date: 2026-12-25
+    day: Friday
+    holiday: Christmas Day
+    significance: Birth of Jesus Christ
+    pack_note: "During winter break — no pack events"
+
+  - date: 2027-01-06
+    day: Wednesday
+    holiday: Epiphany
+    significance: End of Christmas season
+    pack_note: "Wednesday — schools just returning from break; no pack event conflict"
+
+  - date: 2027-02-10
+    day: Wednesday
+    holiday: Ash Wednesday
+    significance: Beginning of Lent
+    pack_note: "Wednesday; PAUSD local holiday is 2/11-12 — no pack events that week"
+
+  - date: 2027-03-21
+    day: Sunday
+    holiday: Palm Sunday
+    significance: Start of Holy Week
+    pack_note: "Sunday — day after spring camping ends (3/20-21). Camping returns Sunday AM"
+
+  - date: 2027-03-26
+    day: Friday
+    holiday: Good Friday
+    significance: Crucifixion of Jesus; many observe as day off
+    pack_note: "Friday — no pack event conflict"
+
+  - date: 2027-03-28
+    day: Sunday
+    holiday: Easter Sunday
+    significance: Resurrection of Jesus Christ
+    pack_note: "Sunday — no pack event conflict. March pack meeting was 3/18 Thu"
+
+  - date: 2027-05-16
+    day: Sunday
+    holiday: Pentecost
+    significance: Descent of the Holy Spirit
+    pack_note: "Sunday — final pack meeting is 5/20 Thu"

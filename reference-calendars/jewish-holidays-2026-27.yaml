@@ -1,0 +1,133 @@
+# ============================================================================
+# Jewish Holidays — 2026-2027
+# ============================================================================
+# Complete Jewish holiday calendar for Pack 57 scheduling.
+# Jewish holidays begin at sunset the evening before the listed date
+# and end at nightfall on the last date shown.
+#
+# Sources: hebcal.com, chabad.org
+# ============================================================================
+
+calendar: Jewish Holidays
+coverage: September 2026 – May 2027 (pack season), plus full year context
+note: >
+  All Jewish holidays begin at sunset the evening before and end at
+  nightfall. Dates shown are the primary day(s). Hausner Jewish Day
+  School and JCC closures are tracked separately in their own files
+  but align with these dates.
+
+# --- Full Year 2026 ---
+year_2026:
+  - date: 2026-02-01
+    holiday: Tu BiShvat
+    significance: "New Year for Trees"
+    hebrew_date: 15 Sh'vat 5786
+    work_restriction: none
+
+  - date: 2026-03-02
+    holiday: Purim
+    significance: Celebration of Jewish deliverance (Book of Esther)
+    hebrew_date: 14 Adar 5786
+    duration: "Evening of Mar 2 – nightfall Mar 3"
+    work_restriction: none (festive, not a full yom tov)
+
+  - date: 2026-04-01
+    holiday: Passover (Pesach) — First Seder
+    significance: Commemorates the Exodus from Egypt
+    hebrew_date: 15-22 Nisan 5786
+    duration: "Apr 1-9 (8 days in diaspora)"
+    work_restriction: "No work first 2 days (Apr 1-2) and last 2 days (Apr 8-9); intermediate days (Chol HaMoed) are semi-holiday"
+
+  - date: 2026-05-04
+    holiday: Lag BaOmer
+    significance: 33rd day of the Omer
+    hebrew_date: 18 Iyyar 5786
+    work_restriction: none
+
+  - date: 2026-05-21
+    holiday: Shavuot
+    significance: Festival of Weeks; giving of the Torah at Sinai
+    hebrew_date: 6-7 Sivan 5786
+    duration: "May 21-23 (2 days in diaspora)"
+    work_restriction: full
+
+  - date: 2026-07-23
+    holiday: Tisha B'Av
+    significance: Fast day; destruction of the Temples
+    hebrew_date: 9 Av 5786
+    work_restriction: fast day (not a full work restriction)
+
+# --- Pack Season: Sep 2026 – May 2027 ---
+pack_season:
+  - date: 2026-09-12
+    day: Saturday
+    holiday: Rosh Hashanah (Day 1)
+    significance: Jewish New Year
+    hebrew_date: 1-2 Tishrei 5787
+    duration: "Sep 11 sunset – Sep 13 nightfall (2 days)"
+    work_restriction: full (no work both days)
+    pack_note: "Pack kickoff moved to Sep 10 (2nd Thu) to avoid proximity"
+
+  - date: 2026-09-21
+    day: Monday
+    holiday: Yom Kippur
+    significance: Day of Atonement — holiest day of the year
+    hebrew_date: 10 Tishrei 5787
+    duration: "Sep 20 sunset – Sep 21 nightfall (25-hour fast)"
+    work_restriction: full
+    pack_note: "Monday — no pack event conflict"
+
+  - date: 2026-09-26
+    day: Saturday
+    holiday: Sukkot begins
+    significance: Feast of Booths (7 days)
+    hebrew_date: 15-21 Tishrei 5787
+    duration: "Sep 25 sunset – Oct 2 nightfall"
+    work_restriction: "Full first 2 days (Sep 26-27); Chol HaMoed Sep 28 – Oct 1"
+    pack_note: "Den meetings begin week of 9/28 — falls during Chol HaMoed (semi-holiday)"
+
+  - date: 2026-10-03
+    day: Saturday
+    holiday: Shemini Atzeret / Simchat Torah
+    significance: Conclusion of fall holidays; Torah reading cycle restarts
+    hebrew_date: 22-23 Tishrei 5787
+    duration: "Oct 2 sunset – Oct 4 nightfall"
+    work_restriction: full (both days)
+    pack_note: "Saturday-Sunday — no pack event conflict"
+
+  - date: 2026-12-05
+    day: Saturday
+    holiday: Hanukkah begins
+    significance: Festival of Lights (8 days)
+    hebrew_date: 25 Kislev – 2 Tevet 5787
+    duration: "Dec 4 sunset – Dec 12 nightfall"
+    work_restriction: none (candle lighting nightly; not a work-restricted holiday)
+    pack_note: "Dec pack meeting is 12/10 Thu — during Hanukkah. Fun opportunity for celebration!"
+
+  - date: 2027-01-22
+    day: Friday
+    holiday: Tu BiShvat
+    significance: "New Year for Trees"
+    hebrew_date: 15 Sh'vat 5787
+    work_restriction: none
+    pack_note: "Friday — Pinewood Derby build session is 1/23 Sat, day after"
+
+  - date: 2027-03-23
+    day: Tuesday
+    holiday: Purim
+    significance: Celebration of Jewish deliverance
+    hebrew_date: 14 Adar II 5787
+    duration: "Mar 22 sunset – Mar 23 nightfall"
+    work_restriction: none (festive)
+    pack_note: "Tuesday — spring camping was 3/20-21 Sat-Sun, before Purim"
+
+  - date: 2027-04-22
+    day: Thursday
+    holiday: Passover (Pesach) — First Seder
+    significance: Commemorates the Exodus from Egypt
+    hebrew_date: 15-22 Nisan 5787
+    duration: "Apr 21 sunset – Apr 29 nightfall (8 days in diaspora)"
+    work_restriction: "No work first 2 days (Apr 22-23) and last 2 days (Apr 28-29)"
+    pack_note: >
+      Blue & Gold is April 15 — a full week before Passover starts.
+      No conflict. Hausner closes 4/19-4/30 for Pesach break.

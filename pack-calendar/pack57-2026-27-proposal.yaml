@@ -1,0 +1,795 @@
+# ============================================================================
+# Pack 57 Palo Alto — 2026-2027 Calendar Proposal (DRAFT)
+# ============================================================================
+# For committee review before distribution to parents
+#
+# Planning principles:
+#   1. Pack meetings on 3rd Thursday of the month (current pattern)
+#   2. Pack committee meetings 1st Thursday of the month (virtual)
+#      (Stanford District Roundtable is the same evening)
+#   3. Avoid all PAUSD no-school days, major religious holidays, and
+#      known private school breaks
+#   4. Den meetings weekly or biweekly per den leader preference
+#   5. Align with Pacific Skyline Council / Stanford District events
+#   6. Season: September 2026 through May 2027
+#
+# Conflict calendars consulted (15 sources):
+#   Schools:
+#     - PAUSD 2026-27 (Addison, Hoover, Palo Verde, Duveneck, Walter Hays,
+#       Escondido, Oak Knoll, Ohlone — all follow same district calendar)
+#     - Gideon Hausner Jewish Day School 2026-27
+#     - Oshman Family JCC closures
+#     - Nueva School (estimated)
+#     - Bowman School (year-round, flexible)
+#     - Keys School (estimated)
+#     - St. Raymond School (estimated)
+#   Religious / cultural:
+#     - Jewish holidays 2026-27 (hebcal.com)
+#     - Islamic holidays 2026-27 (fiqhcouncil.org)
+#     - Christian holidays 2026-27
+#     - Hindu / Indian holidays 2026-27
+#   Other:
+#     - US federal holidays 2026-27
+#     - Pacific Skyline Council / Stanford District events
+#
+# See also: do-not-book-dates.yaml for the unified conflict calendar
+#
+# PAUSD Back to School Night: typically late August (~Aug 25-27),
+#   well before our September start. No conflict expected.
+# ============================================================================
+
+pack: Pack 57 Palo Alto
+charter_org: TBD
+meeting_location: Addison Elementary School (default)
+year: 2026-2027
+
+# ============================================================================
+# SEPTEMBER 2026
+# ============================================================================
+# School conflicts: Labor Day 9/7 Mon
+# Jewish: Rosh Hashanah 9/11-13, Yom Kippur 9/20-21, Sukkot 9/25-10/2
+# Hindu: Ganesh Chaturthi 9/7 Mon (before pack season)
+september:
+  - date: 2026-09-03  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Plan the year; finalize calendar with committee. Also Stanford District Roundtable same evening."
+
+  - date: 2026-09-10  # Thu
+    day: Thursday
+    event: Pack Kickoff / Registration Night
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      Welcome new and returning families. Distribute year calendar.
+      Moved from 3rd Thu (9/17) to 2nd Thursday to avoid proximity
+      to Rosh Hashanah (9/11-13). Yom Kippur is 9/20-21.
+
+  - date: 2026-09-12  # Sat
+    day: Saturday
+    event: "[NO MEETINGS] Rosh Hashanah"
+    type: conflict
+    notes: "Jewish New Year (Sep 11 sunset – Sep 13 nightfall). JCC closed 9/12; Hausner closed."
+
+  - date: 2026-09-20  # Sun
+    day: Sunday
+    event: "COUNCIL: Arrowpalooza"
+    type: council_event
+    location: Coyote Point Recreation Area, San Mateo
+    notes: >
+      Major Cub Scout council event! Encourage families to attend.
+      NOTE: Yom Kippur begins at sunset Sun 9/20 — Jewish families
+      will not be available.
+
+  - date: 2026-09-21  # Mon
+    day: Monday
+    event: "[NO MEETINGS] Yom Kippur"
+    type: conflict
+    notes: "Day of Atonement — holiest day in Judaism. Hausner & JCC closed."
+
+  - date: 2026-09-28  # Mon
+    day: Monday
+    event: Den Meetings Begin (week of)
+    type: den_meeting
+    notes: >
+      Den leaders set their own recurring day/time.
+      Note: This week falls during Sukkot (Chol HaMoed / intermediate days).
+      Some Jewish families may be less available.
+
+# ============================================================================
+# OCTOBER 2026
+# ============================================================================
+# Jewish: Shemini Atzeret/Simchat Torah 10/2-4
+# Hindu: Sharad Navratri 10/10-18, Dussehra 10/19
+# Federal: Columbus Day 10/12 Mon (PAUSD in session)
+october:
+  - date: 2026-10-01  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2026-10-03  # Sat
+    day: Saturday
+    event: "[NO MEETINGS] Shemini Atzeret / Simchat Torah"
+    type: conflict
+    notes: "Conclusion of Jewish fall holiday season (Oct 2 sunset – Oct 4 nightfall). Hausner closed."
+
+  - date: 2026-10-09  # Fri
+    day: Friday
+    event: "COUNCIL: Cub-On Weekend (Fri-Sun)"
+    type: council_event
+    location: Boulder Creek Scout Reservation
+    notes: "PacSky Cub Scout camping weekend (Oct 9-11). Interested families can attend."
+
+  - date: 2026-10-15  # Thu
+    day: Thursday
+    event: October Pack Meeting
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      Theme TBD (Halloween/fall themed?). Hype up fall camping next weekend!
+      Note: Sharad Navratri (Hindu, Oct 10-18) is ongoing — awareness only.
+
+  - date: 2026-10-17  # Sat
+    day: Saturday
+    event: "FALL CAMPING TRIP (Sat-Sun Oct 17-18)"
+    type: camping
+    location: "TBD — committee to decide"
+    notes: >
+      Pack fall camping trip. No school conflicts, not a long weekend,
+      2 days after pack meeting, 2 weeks before Halloween.
+      Note: Overlaps with tail end of Sharad Navratri (Hindu) — some
+      families may observe. Dussehra is Mon 10/19.
+      LOCATION OPTIONS:
+        - Portola Redwoods State Park (redwoods, ~45 min from PA)
+        - Memorial County Park (creek, easy for families, ~40 min)
+        - Boulder Creek Scout Reservation (council site, ~1 hr)
+        - Sanborn County Park (easy access, ~30 min)
+
+  - date: 2026-10-23  # Fri
+    day: Friday
+    event: "COUNCIL: Cub-On Weekend #2 (Fri-Sun)"
+    type: council_event
+    location: Boulder Creek Scout Reservation
+    notes: "Second Cub-On weekend. Backup if families missed our Oct 17 trip."
+
+  - date: 2026-10-30  # Fri
+    day: Friday
+    event: "COUNCIL: Jack-O-Lantern Jamboree (Lions & Tigers)"
+    type: council_event
+    location: Palo Alto Service Center
+    notes: "Halloween event for Lions & Tigers."
+
+# ============================================================================
+# NOVEMBER 2026
+# ============================================================================
+# School: Hausner P/T Conf 11/5-6, Veterans Day 11/11,
+#         Thanksgiving 11/23-27 (all schools)
+# Hindu: Diwali 11/8 Sun (festival period 11/6-10)
+november:
+  - date: 2026-11-05  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: >
+      Also Stanford District Roundtable same evening.
+      Scouting for Food door hanger pickup at Roundtable.
+      Hausner P/T conferences 11/5-6 — some families unavailable.
+
+  - date: 2026-11-08  # Sun
+    day: Sunday
+    event: "[NOTE] Diwali (Festival of Lights)"
+    type: cultural_note
+    notes: >
+      Major Hindu holiday. Festival period: Dhanteras 11/6 Fri,
+      Choti Diwali 11/7 Sat, Diwali 11/8 Sun, Govardhan Puja 11/9 Mon,
+      Bhai Dooj 11/10 Tue. Main celebration falls on weekend — no pack
+      event conflict, but be mindful of families celebrating.
+
+  - date: 2026-11-11  # Wed
+    day: Wednesday
+    event: "[NO MEETINGS] Veterans Day"
+    type: conflict
+    notes: "US federal holiday. PAUSD closed."
+
+  - date: 2026-11-13  # Fri
+    day: Friday
+    event: "DISTRICT: Stanford District Camporee (Fri-Sun)"
+    type: district_event
+    location: Boulder Creek Scout Reservation
+    notes: "Key district camping event! Encourage Webelos/AOL to attend."
+
+  - date: 2026-11-14  # Sat
+    day: Saturday
+    event: "COUNCIL: Scouting for Food — Collection Day"
+    type: service_project
+    location: Foster City Service Center
+    notes: "Annual food drive collection. Coordinate with local food bank."
+
+  - date: 2026-11-19  # Thu
+    day: Thursday
+    event: November Pack Meeting
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: "Theme: Gratitude / Service."
+
+  - date: 2026-11-23  # Mon
+    day: Monday
+    event: "[NO MEETINGS] Thanksgiving Break begins"
+    type: conflict
+    notes: "All schools out 11/23-27 (Mon-Fri). Thanksgiving Day is 11/26 Thu."
+
+# ============================================================================
+# DECEMBER 2026
+# ============================================================================
+# Jewish: Hanukkah 12/4-12
+# Christian: Christmas Eve 12/24, Christmas Day 12/25
+# School: Winter Break ~12/19-1/5 (varies by school)
+december:
+  - date: 2026-12-03  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2026-12-05  # Sat
+    day: Saturday
+    event: "COUNCIL: Winter Family Fun Fest!"
+    type: council_event
+    location: Palo Alto Service Center
+    notes: "Council family event — great pack outing opportunity."
+
+  - date: 2026-12-10  # Thu
+    day: Thursday
+    event: December Pack Meeting / Holiday Celebration
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      Moved to 2nd Thursday to be before winter break.
+      Inclusive holiday celebration — Hanukkah (12/4-12) is ongoing,
+      Christmas (12/25) and winter solstice (12/21) ahead.
+      Consider activities that honor the season broadly.
+
+  - date: 2026-12-19  # Sat
+    day: Saturday
+    event: "[NO MEETINGS] Winter Break begins"
+    type: conflict
+    notes: >
+      PAUSD break 12/19-1/5; Hausner 12/21-1/1; Emerson ~12/22-1/2.
+      Christmas Eve 12/24, Christmas Day 12/25, New Year's Day 1/1.
+      No pack events until January.
+
+# ============================================================================
+# JANUARY 2027
+# ============================================================================
+# School: Winter Break through 1/5 Tue, MLK Day 1/18 Mon
+# Hindu: Makar Sankranti / Pongal 1/14 Thu
+# Jewish: Tu BiShvat 1/22 Fri
+january:
+  - date: 2027-01-07  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Plan spring semester; Pinewood Derby logistics. Also Stanford District Roundtable same evening."
+
+  - date: 2027-01-14  # Thu
+    day: Thursday
+    event: "[NOTE] Makar Sankranti / Pongal"
+    type: cultural_note
+    notes: "Hindu harvest festival. Thursday — no pack event this day. Awareness only."
+
+  - date: 2027-01-18  # Mon
+    day: Monday
+    event: "[NO MEETINGS] Martin Luther King Jr. Day"
+    type: conflict
+    notes: "US federal holiday. All schools closed."
+
+  - date: 2027-01-21  # Thu
+    day: Thursday
+    event: January Pack Meeting
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: "Theme: Pinewood Derby Kickoff. Distribute kits & rules."
+
+  - date: 2027-01-23  # Sat
+    day: Saturday
+    event: "Pinewood Derby Build Session #1"
+    type: special_event
+    time: "10:00 AM - 12:00 PM"
+    notes: "Saturday workshop for car building."
+
+# ============================================================================
+# FEBRUARY 2027
+# ============================================================================
+# School: PAUSD Local Holidays 2/11-12, Presidents Day 2/15 Mon
+# Islamic: Ramadan begins ~2/8 Mon (through ~Mar 9)
+# Christian: Ash Wednesday 2/10 Wed (start of Lent)
+february:
+  - date: 2027-02-04  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2027-02-06  # Sat
+    day: Saturday
+    event: "Pinewood Derby Build Session #2"
+    type: special_event
+    time: "10:00 AM - 12:00 PM"
+    notes: "Saturday workshop, last chance to build."
+
+  - date: 2027-02-08  # Mon
+    day: Monday
+    event: "[NOTE] Ramadan begins (estimated)"
+    type: cultural_note
+    notes: >
+      Islamic holy month of fasting dawn-to-sunset (~Feb 8 – Mar 9).
+      Not a scheduling blocker, but be mindful: sunset is ~5:50 PM in Feb,
+      ~6:15 PM in Mar, so iftar may coincide with 6:30 PM meeting start.
+      Consider offering snacks/water and being flexible with attendance.
+
+  - date: 2027-02-11  # Thu
+    day: Thursday
+    event: "[NO MEETINGS] PAUSD Local Holiday"
+    type: conflict
+    notes: "PAUSD out 2/11-12 (Thu-Fri). Presidents Day 2/15 (Mon). Long weekend."
+
+  - date: 2027-02-18  # Thu
+    day: Thursday
+    event: February Pack Meeting
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      Theme: Final Pinewood Derby prep.
+      Note: Ramadan ongoing — Muslim families fasting during daylight.
+
+  - date: 2027-02-27  # Sat
+    day: Saturday
+    event: Pinewood Derby
+    type: special_event
+    location: Lucie Stern Community Center (or similar)
+    time: "9:00 AM - 12:00 PM"
+    notes: >
+      Saturday event. Top finishers advance to Council Pinewood Derby
+      (typically late April / early May at Hillsdale Mall).
+
+# ============================================================================
+# MARCH 2027
+# ============================================================================
+# School: Hausner P/T Conf 3/11-12, PAUSD Local Holiday 3/15,
+#         PAUSD Staff Dev 3/16
+# Islamic: Eid al-Fitr ~3/9-10 (end of Ramadan)
+# Hindu: Holi 3/22 Mon
+# Jewish: Purim 3/22-23
+# Christian: Palm Sunday 3/21, Good Friday 3/26, Easter 3/28
+march:
+  - date: 2027-03-04  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2027-03-10  # Wed
+    day: Wednesday
+    event: "[NOTE] Eid al-Fitr (estimated)"
+    type: cultural_note
+    notes: >
+      End of Ramadan — Festival of Breaking the Fast (begins sunset 3/9).
+      Some families may celebrate through Wed 3/10. No pack event conflict.
+
+  - date: 2027-03-11  # Thu
+    day: Thursday
+    event: "[NOTE] Hausner P/T Conferences"
+    type: conflict
+    notes: "Hausner no classes 3/11-12 (Thu-Fri); some families unavailable."
+
+  - date: 2027-03-15  # Mon
+    day: Monday
+    event: "[NO MEETINGS] PAUSD Local Holiday"
+    type: conflict
+    notes: "PAUSD out 3/15 Mon, staff dev 3/16 Tue."
+
+  - date: 2027-03-18  # Thu
+    day: Thursday
+    event: March Pack Meeting
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: "Theme TBD. Prep for spring camping and Blue & Gold."
+
+  - date: 2027-03-20  # Sat
+    day: Saturday
+    event: "SPRING CAMPING TRIP (Sat-Sun Mar 20-21)"
+    type: camping
+    location: "TBD — committee to decide"
+    notes: >
+      Pack spring camping trip. 2 days after pack meeting,
+      3.5 weeks before Blue & Gold (Apr 15). Good spring weather.
+      Palm Sunday is 3/21 Sun — families returning Sunday AM may
+      want to attend services. Holi (Hindu) is Mon 3/22.
+      LOCATION OPTIONS:
+        - Portola Redwoods State Park
+        - Memorial County Park
+        - Boulder Creek Scout Reservation
+        - Big Basin area (if reopened)
+
+  - date: 2027-03-22  # Mon
+    day: Monday
+    event: "[NOTE] Holi + Purim"
+    type: cultural_note
+    notes: >
+      Holi (Hindu Festival of Colors) Mon 3/22.
+      Purim (Jewish) begins sunset Mon 3/22 through Tue 3/23 nightfall.
+      Spring camping ends Sun 3/21 — no overlap.
+
+  - date: 2027-03-26  # Fri
+    day: Friday
+    event: "[NOTE] Good Friday"
+    type: cultural_note
+    notes: "Christian observance. Many families observe; some businesses close. No pack event conflict."
+
+  - date: 2027-03-28  # Sun
+    day: Sunday
+    event: "[NOTE] Easter Sunday"
+    type: cultural_note
+    notes: "Major Christian holiday. March pack meeting was 3/18 — no conflict."
+
+# ============================================================================
+# APRIL 2027
+# ============================================================================
+# School: PAUSD Spring Break 4/5-9, Hausner Pesach Break 4/19-30
+# Jewish: Passover (Pesach) 4/21-29
+april:
+  - date: 2027-04-01  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2027-04-05  # Mon
+    day: Monday
+    event: "[NO MEETINGS] PAUSD Spring Break"
+    type: conflict
+    notes: "PAUSD out 4/5-9 (Mon-Fri)."
+
+  - date: 2027-04-15  # Thu
+    day: Thursday
+    event: "April Pack Meeting + BLUE & GOLD BANQUET"
+    type: pack_meeting
+    time: "6:00 PM"
+    location: Addison Elementary School
+    notes: >
+      Combined pack meeting and Blue & Gold Banquet.
+      No school conflicts — PAUSD spring break ended 4/9,
+      Hausner Pesach doesn't start until 4/19. All families available.
+      No religious holiday conflicts this week.
+      Start 30 min early (6:00 PM) for potluck/dinner + awards.
+
+  - date: 2027-04-19  # Mon
+    day: Monday
+    event: "[NO MEETINGS] Pesach Break begins (Hausner)"
+    type: conflict
+    notes: >
+      Hausner closed 4/19-4/30.
+      Passover: Apr 21 sunset – Apr 29 nightfall.
+      First 2 days (Apr 22-23) and last 2 days (Apr 28-29) are
+      work-restricted Jewish holidays.
+
+# ============================================================================
+# MAY 2027
+# ============================================================================
+# Islamic: Eid al-Adha ~5/16-19
+# Christian: Pentecost 5/16 Sun
+# Federal: Memorial Day 5/31 Mon
+may:
+  - date: 2027-05-02  # Sun
+    day: Sunday
+    event: "Council Pinewood Derby (estimated)"
+    type: council_event
+    location: "Hillsdale Mall, San Mateo (TBD)"
+    notes: "Based on 2026 date of May 2; check PacSky calendar."
+
+  - date: 2027-05-06  # Thu
+    day: Thursday
+    event: Pack Committee Meeting (Virtual)
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Also Stanford District Roundtable same evening."
+
+  - date: 2027-05-17  # Mon
+    day: Monday
+    event: "[NOTE] Eid al-Adha (estimated)"
+    type: cultural_note
+    notes: >
+      Islamic Festival of Sacrifice (~May 16-19, up to 4 days).
+      Final pack meeting is 5/20 Thu — some families may still be
+      celebrating. Be mindful of attendance.
+
+  - date: 2027-05-20  # Thu
+    day: Thursday
+    event: Final Pack Meeting / Year-End Celebration
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      Awards ceremony. Bridging ceremony for advancing scouts.
+      Recognize volunteers. Announce summer activities.
+      Note: Eid al-Adha (~5/16-19) just ended — some families
+      may have been traveling.
+
+  - date: 2027-05-31  # Mon
+    day: Monday
+    event: "[NO MEETINGS] Memorial Day"
+    type: conflict
+    notes: "US federal holiday. All schools closed."
+
+# ============================================================================
+# LEADER TRAINING DATES (PacSky)
+# ============================================================================
+# These don't conflict with pack events but are listed so leaders can plan.
+training:
+  - date: 2026-07-22  # Wed
+    day: Wednesday
+    event: "TRAINING: Cub Scout Fall Join Night Training"
+    location: Foster City Service Center
+
+  - date: 2026-08-26  # Wed
+    day: Wednesday
+    event: "TRAINING: Cub Scout Fall Join Night Training"
+    location: Foster City Service Center
+
+  - date: 2026-08-28  # Fri
+    day: Friday
+    event: "TRAINING: Wood Badge 2026 — Weekend 1 (Fri-Sun Aug 28-30)"
+    location: Boulder Creek Scout Reservation
+    notes: "Multi-weekend leadership course"
+
+  - date: 2026-08-29  # Sat
+    day: Saturday
+    event: "TRAINING: BALOO (Basic Adult Leader Outdoor Orientation)"
+    location: Palo Alto Service Center
+    notes: "Required for any adult taking Cub Scouts camping overnight"
+
+  - date: 2026-09-02  # Wed
+    day: Wednesday
+    event: "TRAINING: Cub Scout Fall Join Night Training"
+    location: Palo Alto Service Center
+
+  - date: 2026-09-19  # Sat
+    day: Saturday
+    event: "TRAINING: Wood Badge 2026 — Weekend 2 (Sat-Mon Sep 19-21)"
+    location: Boulder Creek Scout Reservation
+
+  - date: 2026-10-16  # Fri
+    day: Friday
+    event: "TRAINING: Order of the Arrow Fall Ordeal (Fri-Sun Oct 16-18)"
+    location: Boulder Creek Scout Reservation
+
+  - date: 2026-11-07  # Sat
+    day: Saturday
+    event: "TRAINING: IOLS (Intro to Outdoor Leadership Skills, Sat-Sun Nov 7-8)"
+    location: Boulder Creek Scout Reservation
+    notes: "Required outdoor training for Scoutmasters"
+
+  - date: 2027-04-01  # Thu
+    day: Thursday
+    event: "TRAINING: Merit Badge Counselor Training (Virtual)"
+    location: Virtual
+
+  - date: 2027-04-10  # Sat
+    day: Saturday
+    event: "TRAINING: Wilderness First Aid Course (Sat-Sun Apr 10-11)"
+    location: Palo Alto Service Center
+
+  - date: 2027-05-02  # Sun
+    day: Sunday
+    event: "TRAINING: Scoutmaster Position-Specific Training"
+    location: Palo Alto Service Center
+
+# ============================================================================
+# SUMMARY: KEY DATES AT A GLANCE
+# ============================================================================
+summary:
+  pack_meetings:  # 3rd Thursday (adjusted as needed)
+    - "2026-09-10 Thu"  # Moved to 2nd Thu (Rosh Hashanah proximity)
+    - "2026-10-15 Thu"
+    - "2026-11-19 Thu"
+    - "2026-12-10 Thu"  # Moved to 2nd Thu (winter break)
+    - "2027-01-21 Thu"
+    - "2027-02-18 Thu"  # During Ramadan
+    - "2027-03-18 Thu"
+    - "2027-04-15 Thu"  # Blue & Gold Banquet (6:00 PM start)
+    - "2027-05-20 Thu"  # Near Eid al-Adha
+
+  pack_committee_meetings:  # 1st Thursday, virtual (also District Roundtable)
+    - "2026-09-03 Thu"
+    - "2026-10-01 Thu"
+    - "2026-11-05 Thu"
+    - "2026-12-03 Thu"
+    - "2027-01-07 Thu"
+    - "2027-02-04 Thu"
+    - "2027-03-04 Thu"
+    - "2027-04-01 Thu"
+    - "2027-05-06 Thu"
+
+  special_events:
+    - date: "2026-10-17 Sat"
+      event: "Fall Camping Trip (Sat-Sun, location TBD)"
+    - date: "2026-11-14 Sat"
+      event: Scouting for Food Collection
+    - date: "2027-01-23 Sat"
+      event: Pinewood Derby Build Session 1
+    - date: "2027-02-06 Sat"
+      event: Pinewood Derby Build Session 2
+    - date: "2027-02-27 Sat"
+      event: Pinewood Derby
+    - date: "2027-03-20 Sat"
+      event: "Spring Camping Trip (Sat-Sun, location TBD)"
+    - date: "2027-04-15 Thu"
+      event: "Blue & Gold Banquet (combined with April pack meeting)"
+
+  council_district_events:
+    - "9/20 Sun: Arrowpalooza @ Coyote Point (NOTE: Erev Yom Kippur)"
+    - "10/9-11 Fri-Sun: Cub-On Weekend #1 @ Boulder Creek"
+    - "10/23-25 Fri-Sun: Cub-On Weekend #2 @ Boulder Creek"
+    - "10/30 Fri: Jack-O-Lantern Jamboree (Lions & Tigers) @ PA Service Center"
+    - "11/5 Thu: Scouting for Food Door Hanger Pickup"
+    - "11/13-15 Fri-Sun: Stanford District Camporee @ Boulder Creek"
+    - "11/14 Sat: Scouting for Food Collection Day"
+    - "12/5 Sat: Winter Family Fun Fest @ PA Service Center"
+    - "~5/2 Sun: Council Pinewood Derby @ Hillsdale Mall"
+    - "Stanford District Roundtable: 1st Thursday monthly (virtual)"
+
+# ============================================================================
+# RELIGIOUS / CULTURAL AWARENESS NOTES
+# ============================================================================
+# These holidays don't necessarily block scheduling but the committee and
+# den leaders should be aware of them for inclusive planning.
+cultural_awareness:
+  ramadan_2027:
+    dates: "~Feb 8 – Mar 9, 2027"
+    impact: >
+      Month-long fasting dawn-to-sunset. Affects Feb and Mar meetings.
+      Sunset is ~5:50 PM Feb, ~6:15 PM Mar — iftar may overlap with
+      6:30 PM meeting start. Suggestion: have snacks/water available,
+      be understanding about attendance.
+
+  diwali_2026:
+    date: "Nov 8, 2026 (Sun)"
+    impact: "Major Hindu celebration. Falls on weekend; no pack conflict."
+
+  hanukkah_2026:
+    dates: "Dec 4-12, 2026"
+    impact: >
+      Dec pack meeting (12/10) falls during Hanukkah — opportunity for
+      inclusive holiday celebration activities at the meeting.
+
+  easter_2027:
+    date: "Mar 28, 2027 (Sun)"
+    impact: "Major Christian holiday. No pack event that weekend."
+
+  passover_2027:
+    dates: "Apr 21-29, 2027"
+    impact: >
+      Blue & Gold (Apr 15) is safely before Passover.
+      Hausner closes 4/19-4/30. No pack events during this period.
+
+  eid_al_adha_2027:
+    dates: "~May 16-19, 2027"
+    impact: "Final pack meeting (5/20) is day after. Some families may be celebrating."
+
+# ============================================================================
+# DECISIONS MADE
+# ============================================================================
+decisions_made:
+  - "Pack meetings: 3rd Thursday (Sep & Dec adjusted to 2nd Thursday for holidays/break)"
+  - "Blue & Gold Banquet: April 15 Thu, combined with April pack meeting (no conflicts)"
+  - "Fall Camping: October 17-18 Sat-Sun (no school conflicts, not a long weekend)"
+  - "Spring Camping: March 20-21 Sat-Sun (no conflicts, 3.5 weeks before B&G)"
+  - "Service: Scouting for Food in November (door hangers 11/5, collection 11/14)"
+  - "Location: Addison Elementary (continuing)"
+  - "Den meetings: at least once per month; den leaders choose from suggested date options"
+  - "Multi-faith calendar reviewed: Jewish, Islamic, Christian, Hindu holidays all considered"
+
+# ============================================================================
+# OPEN QUESTIONS FOR COMMITTEE
+# ============================================================================
+open_questions:
+  - question: "Fall camping location?"
+    options:
+      - "Portola Redwoods State Park (~45 min)"
+      - "Memorial County Park (~40 min)"
+      - "Boulder Creek Scout Reservation (~1 hr)"
+      - "Sanborn County Park (~30 min)"
+
+  - question: "Spring camping location?"
+    options:
+      - "Portola Redwoods State Park"
+      - "Memorial County Park"
+      - "Boulder Creek Scout Reservation"
+      - "Big Basin area (if reopened)"
+
+  - question: "Should we add a winter/spring community service project beyond Scouting for Food?"
+
+  - question: "Fall camping Oct 17-18 overlaps with end of Navratri (Hindu). Any concerns from families?"
+
+  - question: "Ramadan (Feb 8 – Mar 9): any accommodations needed for Feb/Mar meetings beyond snacks/flexibility?"
+
+# ============================================================================
+# DEN MEETING DATE OPTIONS (for den leaders to choose from)
+# ============================================================================
+# At least 1 den meeting per month. Den leaders pick the day(s) that work
+# for their families. Suggested options per month (avoiding conflicts):
+den_meeting_options:
+  september_2026:
+    note: "Den meetings begin week of 9/28"
+    avoid: ["9/7 Mon Labor Day", "9/12-13 Rosh Hashanah", "9/21 Mon Yom Kippur", "9/25-10/2 Sukkot (awareness)"]
+    suggested_weeks:
+      - "Week of 9/28 (Mon-Fri): first den meeting of the year (note: Sukkot Chol HaMoed)"
+
+  october_2026:
+    avoid: ["10/2-4 Shemini Atzeret/Simchat Torah", "10/1 Thu pack committee", "10/15 Thu pack meeting"]
+    suggested_weeks:
+      - "Week of 10/5 (Mon-Thu): good first week"
+      - "Week of 10/19 (Mon-Wed, Fri): after pack meeting (10/19 Mon is Dussehra — awareness)"
+      - "Week of 10/26 (Mon-Thu): end of month"
+
+  november_2026:
+    avoid: ["11/5-6 Hausner P/T", "11/6-10 Diwali period (awareness)", "11/11 Veterans Day", "11/19 Thu pack meeting", "11/23-27 Thanksgiving"]
+    suggested_weeks:
+      - "Week of 11/2 (Mon-Wed): before Veterans Day"
+      - "Week of 11/9 (Mon, Tue, Thu, Fri): skip Wed 11/11"
+      - "Week of 11/16 (Mon-Wed): before pack meeting"
+
+  december_2026:
+    avoid: ["12/3 Thu pack committee", "12/4-12 Hanukkah (not a blocker)", "12/10 Thu pack meeting", "12/19+ Winter Break", "12/24-25 Christmas"]
+    suggested_weeks:
+      - "Week of 12/7 (Mon-Wed, Fri): before pack meeting"
+      - "Week of 12/14 (Mon-Thu): last week before break"
+    note: "Short month due to winter break; one meeting is fine"
+
+  january_2027:
+    avoid: ["1/1 New Year's", "1/5 Tue PAUSD returns", "1/7 Thu pack committee", "1/14 Thu Makar Sankranti (awareness)", "1/18 Mon MLK Day", "1/21 Thu pack meeting"]
+    suggested_weeks:
+      - "Week of 1/11 (Mon-Wed, Fri): first full week back"
+      - "Week of 1/25 (Mon-Fri): after pack meeting"
+
+  february_2027:
+    avoid: ["2/4 Thu pack committee", "2/8+ Ramadan begins (awareness)", "2/10 Wed Ash Wednesday (awareness)", "2/11-12 PAUSD holidays", "2/15 Mon Presidents Day", "2/18 Thu pack meeting"]
+    suggested_weeks:
+      - "Week of 2/8 (Mon-Wed): short week before holidays"
+      - "Week of 2/22 (Mon-Fri): after pack meeting"
+
+  march_2027:
+    avoid: ["3/4 Thu pack committee", "3/9-10 Eid al-Fitr (awareness)", "3/11-12 Hausner P/T", "3/15-16 PAUSD holidays", "3/18 Thu pack meeting", "3/22 Mon Holi/Purim (awareness)", "3/26 Fri Good Friday (awareness)", "3/28 Sun Easter"]
+    suggested_weeks:
+      - "Week of 3/8 (Mon, Wed-Fri): skip Tue for flexibility"
+      - "Week of 3/22 (Tue-Fri): after pack meeting (Mon 3/22 is Holi/Purim)"
+
+  april_2027:
+    avoid: ["4/1 Thu pack committee", "4/5-9 PAUSD Spring Break", "4/15 Thu Blue & Gold", "4/19-30 Hausner Pesach / Passover 4/21-29"]
+    suggested_weeks:
+      - "Week of 4/12 (Mon-Wed): after spring break, before B&G"
+    note: "Tricky month — Pesach 4/19-30 limits late-April options. One meeting is OK."
+
+  may_2027:
+    avoid: ["5/6 Thu pack committee", "5/16-19 Eid al-Adha (awareness)", "5/20 Thu pack meeting", "5/31 Mon Memorial Day"]
+    suggested_weeks:
+      - "Week of 5/10 (Mon-Fri): clear week"
+      - "Week of 5/24 (Mon-Thu): before Memorial Day"

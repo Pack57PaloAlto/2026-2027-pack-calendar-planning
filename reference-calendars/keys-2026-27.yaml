@@ -1,0 +1,41 @@
+# Keys School Palo Alto Calendar
+# Source: https://www.keysschool.org/
+# Note: Calendar is behind parent portal (KEYSNET); not publicly available
+
+school: Keys School
+type: private_k8
+year: 2026-2027
+
+notes:
+  - "Keys School calendar is not publicly available"
+  - "Current families access calendar via KEYSNET parent portal"
+  - "Keys is a K-8 private school in Palo Alto"
+  - "Calendar likely follows a similar pattern to other PA private schools"
+
+estimated_schedule:
+  note: >
+    Based on typical Palo Alto private school patterns and PAUSD alignment.
+    Many private schools roughly align with public school breaks.
+    Verify with Keys families in your pack.
+  school_year: "Late August/Early September through early June"
+  winter_break: "~2 weeks in late December through early January"
+  spring_break: "~1-2 weeks in March or April"
+  thanksgiving: "Wednesday-Friday or full week"
+  mid_winter_break: "Possible February break (Presidents' Day week)"
+
+bell_schedule:
+  lower_school:
+    start: "8:15 AM"
+    recess: "10:00-10:20 AM"
+    lunch: "11:50 AM - 12:30 PM"
+    end: "3:10 PM"
+  middle_school:
+    start: "8:15 AM"
+    recess: "10:00-10:20 AM"
+    lunch: "12:00-12:30 PM"
+    end: "3:20 PM"
+
+contact:
+  phone: "650.328.1711 x2"
+  website: https://www.keysschool.org/
+  note: "Contact Admission Office for calendar details"

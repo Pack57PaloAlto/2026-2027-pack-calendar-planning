@@ -1,0 +1,72 @@
+# PAUSD Elementary Schools — 2026-2027 Calendar
+# All PAUSD elementary schools follow the SAME district calendar.
+# Source: https://resources.finalsite.net/images/v1728448938/pausdorg/wrwwwr7oxxyenp7ysq7a/SchoolYearCalendar2026-27.pdf
+#
+# Pack 57 families attend these PAUSD elementary schools:
+#   - Addison Elementary
+#   - Hoover Elementary
+#   - Palo Verde Elementary
+#   - Duveneck Elementary
+#   - Walter Hays Elementary
+#   - Escondido Elementary
+#   - Oak Knoll Elementary
+#   - Ohlone Elementary
+#
+# ALL of these schools follow the district calendar in pausd-2026-27.yaml.
+# Back to School Night is school-specific but typically late August
+# (~2 weeks after first day of school on Aug 13).
+#
+# See pausd-2026-27.yaml for the full district calendar with all dates.
+
+schools:
+  - name: Addison Elementary
+    address: 650 Addison Ave, Palo Alto
+    phone: "(650) 322-5935"
+    website: https://addison.pausd.org/
+    calendar: https://addison.pausd.org/school-life/calendar
+    notes: "Pack 57 default meeting location"
+
+  - name: Hoover Elementary
+    address: 445 E Charleston Rd, Palo Alto
+    phone: "(650) 320-9816"
+    website: https://hoover.pausd.org/
+
+  - name: Palo Verde Elementary
+    address: 3450 Louis Rd, Palo Alto
+    phone: "(650) 856-1584"
+    website: https://paloverde.pausd.org/
+
+  - name: Duveneck Elementary
+    address: 705 Alester Ave, Palo Alto
+    phone: "(650) 322-5935"
+    website: https://duveneck.pausd.org/
+
+  - name: Walter Hays Elementary
+    address: 1525 Middlefield Rd, Palo Alto
+    phone: "(650) 322-3771"
+    website: https://hays.pausd.org/
+
+  - name: Escondido Elementary
+    address: 890 Escondido Rd, Stanford
+    phone: "(650) 856-1337"
+    website: https://escondido.pausd.org/
+
+  - name: Oak Knoll Elementary
+    address: 1895 Oak Ave, Menlo Park
+    phone: "(650) 856-0996"
+    website: https://oakknoll.pausd.org/
+
+  - name: Ohlone Elementary
+    address: 950 Amarillo Ave, Palo Alto
+    phone: "(650) 856-1578"
+    website: https://ohlone.pausd.org/
+
+back_to_school_night:
+  note: >
+    Each PAUSD school sets its own BTSN date, typically in late August
+    (about 2 weeks after first day of school). In 2025-26 Barron Park
+    held BTSN on Tue Aug 26. For 2026-27 (school starts Thu Aug 13),
+    expect BTSN around Tue-Thu Aug 25-27.
+    Individual school BTSN dates not yet published as of March 2026.
+    Check each school's calendar page in summer 2026.
+  estimated_window: "2026-08-25 to 2026-08-27"

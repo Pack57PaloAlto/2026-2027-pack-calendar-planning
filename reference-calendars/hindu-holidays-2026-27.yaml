@@ -1,0 +1,107 @@
+# ============================================================================
+# Hindu / Indian Holidays — 2026-2027
+# ============================================================================
+# Major Hindu festivals and Indian national observances relevant to
+# Pack 57 scheduling. Dates follow the Hindu lunar calendar and shift
+# year to year on the Gregorian calendar.
+#
+# Sources: drikpanchang.com, timeanddate.com, calendarlabs.com
+# ============================================================================
+
+calendar: Hindu / Indian Holidays
+coverage: September 2026 – May 2027 (pack season), plus key summer dates
+
+# --- Full Year 2026 (for context) ---
+year_2026:
+  - date: 2026-01-14
+    day: Wednesday
+    holiday: Makar Sankranti / Pongal
+    significance: Harvest festival; marks the sun's transition into Capricorn
+    observance: regional
+
+  - date: 2026-03-04
+    day: Wednesday
+    holiday: Holi
+    significance: Festival of Colors; celebrates spring and good over evil
+    observance: major
+
+  - date: 2026-03-19
+    day: Thursday
+    holiday: Ugadi / Gudi Padwa
+    significance: Hindu New Year (Deccan & South India)
+    observance: regional
+
+  - date: 2026-09-07
+    day: Monday
+    holiday: Ganesh Chaturthi
+    significance: Birthday of Lord Ganesha; 10-day festival
+    observance: major
+
+  - date: 2026-10-10
+    day: Saturday
+    holiday: Sharad Navratri begins
+    significance: Nine nights of worship of Goddess Durga
+    duration: "Oct 10-18 (9 days)"
+    observance: major
+
+  - date: 2026-10-19
+    day: Monday
+    holiday: Dussehra (Vijayadashami)
+    significance: Victory of good over evil; follows Navratri
+    observance: major
+
+  - date: 2026-11-08
+    day: Sunday
+    holiday: Diwali (Deepavali)
+    significance: Festival of Lights; biggest Hindu celebration
+    observance: major
+    related_days:
+      - "Nov 6 Fri: Dhanteras"
+      - "Nov 7 Sat: Naraka Chaturdashi (Choti Diwali)"
+      - "Nov 8 Sun: Lakshmi Puja (main day)"
+      - "Nov 9 Mon: Govardhan Puja"
+      - "Nov 10 Tue: Bhai Dooj"
+
+# --- Pack Season: Sep 2026 – May 2027 ---
+pack_season:
+  - date: 2026-09-07
+    day: Monday
+    holiday: Ganesh Chaturthi
+    significance: Birthday of Lord Ganesha
+    pack_note: "Before pack season starts; no conflict"
+
+  - date: 2026-10-10
+    day: Saturday
+    holiday: Sharad Navratri begins (Oct 10-18)
+    significance: Nine nights of Goddess Durga worship
+    pack_note: "Overlaps with fall camping Oct 17-18 weekend — some families may observe"
+
+  - date: 2026-10-19
+    day: Monday
+    holiday: Dussehra (Vijayadashami)
+    significance: Victory of good over evil
+    pack_note: "Monday — no pack event conflict"
+
+  - date: 2026-11-08
+    day: Sunday
+    holiday: Diwali
+    significance: Festival of Lights
+    pack_note: "Sunday; Nov pack meeting is 11/19 Thu — no conflict"
+
+  - date: 2027-01-14
+    day: Thursday
+    holiday: Makar Sankranti / Pongal
+    significance: Harvest festival
+    pack_note: "Thursday — no pack meeting that day (committee is 1/7, pack meeting is 1/21)"
+
+  - date: 2027-03-22
+    day: Monday
+    holiday: Holi
+    significance: Festival of Colors
+    pack_note: "Monday; spring camping is Mar 20-21 Sat-Sun — Holi is Monday after"
+
+  - date: 2027-04-08
+    day: Thursday
+    holiday: Ugadi / Gudi Padwa (estimated)
+    significance: Hindu New Year
+    pack_note: "During PAUSD spring break (4/5-9) — no pack events scheduled"

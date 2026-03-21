@@ -1,0 +1,63 @@
+# PAUSD (Palo Alto Unified School District) 2026-2027 School Year Calendar
+# Source: https://resources.finalsite.net/images/v1728448938/pausdorg/wrwwwr7oxxyenp7ysq7a/SchoolYearCalendar2026-27.pdf
+
+school: Palo Alto Unified School District (PAUSD)
+type: public
+year: 2026-2027
+
+key_dates:
+  first_day_of_school: 2026-08-13  # K-8 and 9-12
+  first_day_full_day_kindergarten: 2026-10-19
+  last_day_of_school: 2027-06-03  # Early Release
+
+staff_days:  # No school for students
+  - date: 2026-08-11
+    description: K-8 Teacher Work Day / 9-12 Staff Development Day
+  - date: 2027-01-04
+    description: K-8 Staff Development Day / 9-12 Teacher Work Day
+  - date: 2027-01-05
+    description: Students Return to School
+  - date: 2027-03-16
+    description: Staff Development Day
+
+holidays_and_breaks:
+  - date: 2026-07-03
+    description: Local Holiday (Independence Day observed)
+  - date: 2026-09-07
+    description: Labor Day
+  - date: 2026-11-11
+    description: Veterans' Day (Staff Development Day)
+  - dates: [2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27]
+    description: Thanksgiving Break
+  - start: 2026-12-19
+    end: 2027-01-05
+    description: Winter Break
+  - date: 2027-01-18
+    description: Martin Luther King Jr. Day
+  - date: 2027-02-11
+    description: Local Holiday
+  - date: 2027-02-12
+    description: Local Holiday
+  - date: 2027-02-15
+    description: Washington's Birthday observed
+  - date: 2027-03-15
+    description: Local Holiday
+  - start: 2027-04-05
+    end: 2027-04-09
+    description: Spring Break
+  - date: 2027-05-31
+    description: Memorial Day
+
+no_school_dates_summary:
+  - 2026-09-07      # Labor Day
+  - 2026-11-11      # Veterans Day
+  - 2026-11-23..27  # Thanksgiving
+  - 2026-12-19..2027-01-05  # Winter Break
+  - 2027-01-18      # MLK Day
+  - 2027-02-11      # Local Holiday
+  - 2027-02-12      # Local Holiday
+  - 2027-02-15      # Presidents Day
+  - 2027-03-15      # Local Holiday
+  - 2027-03-16      # Staff Dev
+  - 2027-04-05..09  # Spring Break
+  - 2027-05-31      # Memorial Day

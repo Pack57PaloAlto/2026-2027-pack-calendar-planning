@@ -1,0 +1,107 @@
+# ============================================================================
+# US Federal Holidays — 2026-2027
+# ============================================================================
+# All 11 US federal holidays. Schools (PAUSD and privates) generally
+# close on these days. Included for completeness alongside the
+# school-specific calendars.
+#
+# Sources: opm.gov, timeanddate.com, federalpay.org
+# ============================================================================
+
+calendar: US Federal Holidays
+coverage: Full calendar years 2026 and 2027
+
+year_2026:
+  - date: 2026-01-01
+    day: Thursday
+    holiday: New Year's Day
+
+  - date: 2026-01-19
+    day: Monday
+    holiday: Martin Luther King Jr. Day
+
+  - date: 2026-02-16
+    day: Monday
+    holiday: Presidents' Day (Washington's Birthday)
+
+  - date: 2026-05-25
+    day: Monday
+    holiday: Memorial Day
+
+  - date: 2026-06-19
+    day: Friday
+    holiday: Juneteenth National Independence Day
+
+  - date: 2026-07-04
+    day: Saturday
+    holiday: Independence Day
+    observed: "Friday, July 3 (federal offices)"
+
+  - date: 2026-09-07
+    day: Monday
+    holiday: Labor Day
+
+  - date: 2026-10-12
+    day: Monday
+    holiday: Columbus Day / Indigenous Peoples' Day
+
+  - date: 2026-11-11
+    day: Wednesday
+    holiday: Veterans Day
+
+  - date: 2026-11-26
+    day: Thursday
+    holiday: Thanksgiving Day
+
+  - date: 2026-12-25
+    day: Friday
+    holiday: Christmas Day
+
+# --- Pack Season falls within 2026-2027 boundary ---
+year_2027:
+  - date: 2027-01-01
+    day: Friday
+    holiday: New Year's Day
+
+  - date: 2027-01-18
+    day: Monday
+    holiday: Martin Luther King Jr. Day
+
+  - date: 2027-02-15
+    day: Monday
+    holiday: Presidents' Day (Washington's Birthday)
+
+  - date: 2027-05-31
+    day: Monday
+    holiday: Memorial Day
+
+  - date: 2027-06-19
+    day: Saturday
+    holiday: Juneteenth National Independence Day
+    observed: "Friday, June 18 (federal offices)"
+
+  - date: 2027-07-04
+    day: Sunday
+    holiday: Independence Day
+    observed: "Monday, July 5 (federal offices)"
+
+  - date: 2027-09-06
+    day: Monday
+    holiday: Labor Day
+
+  - date: 2027-10-11
+    day: Monday
+    holiday: Columbus Day / Indigenous Peoples' Day
+
+  - date: 2027-11-11
+    day: Thursday
+    holiday: Veterans Day
+
+  - date: 2027-11-25
+    day: Thursday
+    holiday: Thanksgiving Day
+
+  - date: 2027-12-25
+    day: Saturday
+    holiday: Christmas Day
+    observed: "Friday, December 24 (federal offices)"

@@ -1,0 +1,100 @@
+# Gideon Hausner Jewish Day School 2026-2027 Calendar
+# Source: https://www.hausnerschool.org (2026-27SchoolCalendar.pdf)
+# Note: Draft as of February 2026; some dates subject to change
+
+school: Gideon Hausner Jewish Day School
+type: private_jewish
+year: 2026-2027
+
+key_dates:
+  new_student_orientation: 2026-08-24
+  first_day_of_school: 2026-08-25  # 8:45 Assembly
+  last_day_of_school: 2027-06-10   # Early Dismissal 11:30am
+  eighth_grade_graduation: 2027-06-09
+
+holidays_and_breaks:
+  # September
+  - date: 2026-09-07
+    description: Labor Day - School Closed
+  - date: 2026-09-14
+    description: Erev Rosh Hashanah - No School
+  - date: 2026-09-21
+    description: Yom Kippur - School Closed
+  - date: 2026-09-25
+    description: Erev Sukkot - Early Dismissal 2:00pm
+  - dates: [2026-09-26, 2026-09-27]
+    description: Sukkot
+
+  # October
+  - date: 2026-10-02
+    description: Shmini Atzeret/Simchat Torah Assembly
+  - dates: [2026-10-03, 2026-10-04]
+    description: Shmini Atzeret/Simchat Torah - School Closed
+
+  # November
+  - dates: [2026-11-05, 2026-11-06]
+    description: Parent/Teacher Conferences - No Classes
+  - start: 2026-11-23
+    end: 2026-11-27
+    description: Thanksgiving Holiday - School Closed
+
+  # December / January
+  - date: 2026-12-04
+    description: Hanukkah Starts
+  - start: 2026-12-21
+    end: 2027-01-01
+    description: Winter Break - School Closed
+  - date: 2027-01-04
+    description: In-service Day - No School for Students
+  - date: 2027-01-18
+    description: Martin Luther King Jr. Day - School Closed
+
+  # February
+  - date: 2027-02-15
+    description: Presidents' Day - School Closed
+  - date: 2027-02-25
+    description: STEM and Maker Fair
+
+  # March
+  - dates: [2027-03-11, 2027-03-12]
+    description: Parent/Teacher Conferences - No Classes
+  - date: 2027-03-23
+    description: Purim Celebration - Early Dismissal 11:30am
+
+  # April
+  - start: 2027-04-19
+    end: 2027-04-30
+    description: Pesach Break - School Closed
+
+  # May
+  - date: 2027-05-04
+    description: Yom Hashoa
+  - date: 2027-05-11
+    description: Yom Hazikaron
+  - date: 2027-05-12
+    description: Yom Haatzmaut
+  - date: 2027-05-31
+    description: Memorial Day - School Closed
+
+  # June
+  - dates: [2027-06-11, 2027-06-12]
+    description: Shavuot
+  - dates: [2027-06-14, 2027-06-15]
+    description: Professional Development - No Students
+
+no_school_dates_summary:
+  - 2026-09-07       # Labor Day
+  - 2026-09-14       # Erev Rosh Hashanah
+  - 2026-09-21       # Yom Kippur
+  - 2026-09-26..27   # Sukkot
+  - 2026-10-03..04   # Shmini Atzeret/Simchat Torah
+  - 2026-11-05..06   # P/T Conferences
+  - 2026-11-23..27   # Thanksgiving
+  - 2026-12-21..2027-01-01  # Winter Break
+  - 2027-01-04       # In-service
+  - 2027-01-18       # MLK Day
+  - 2027-02-15       # Presidents Day
+  - 2027-03-11..12   # P/T Conferences
+  - 2027-04-19..30   # Pesach Break
+  - 2027-05-31       # Memorial Day
+  - 2027-06-11..12   # Shavuot

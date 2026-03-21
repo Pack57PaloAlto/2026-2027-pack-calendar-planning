@@ -1,0 +1,72 @@
+# St. Raymond School (Catholic) Menlo Park — 2026-2027 Calendar
+# Source: https://www.straymond.org/ (calendar not publicly available)
+# Note: St. Raymond is a TK-8 Catholic school in Menlo Park.
+#       Calendar is behind parent portal / not posted publicly.
+#       Dates below are ESTIMATED based on Archdiocese of San Francisco
+#       Catholic school patterns and 2025-26 reference data.
+
+school: St. Raymond TK-8 Catholic School
+type: private_catholic
+year: 2026-2027
+location: 1211 Arbor Rd, Menlo Park, CA 94025
+
+notes:
+  - "Calendar not publicly available; dates are estimates"
+  - "Catholic schools generally follow a similar pattern to public schools"
+  - "Additional Catholic holy day observances (no school)"
+  - "Verify with St. Raymond families in your pack"
+
+estimated_schedule:
+  first_day_of_school: "Mid-to-late August 2026"
+  last_day_of_school: "Late May 2027"
+
+estimated_holidays_and_breaks:
+  - date: 2026-09-07
+    day: Monday
+    description: "Labor Day"
+
+  - dates: [2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27]
+    description: "Thanksgiving Break (Mon-Fri)"
+
+  - start: "~2026-12-21"
+    end: "~2027-01-04"
+    description: "Christmas Break / Winter Break"
+
+  - date: 2027-01-18
+    day: Monday
+    description: "Martin Luther King Jr. Day"
+
+  - date: 2027-02-15
+    day: Monday
+    description: "Presidents' Day"
+
+  - description: "Mid-Winter Break"
+    notes: "Catholic schools sometimes have a February break; varies by year"
+
+  - start: "~2027-04-01"
+    end: "~2027-04-09"
+    description: "Easter/Spring Break"
+    notes: >
+      Easter 2027 is March 28 (Sunday).
+      Catholic schools typically take the week after Easter off.
+      Some take Holy Week (before Easter) instead or both.
+
+  - date: 2027-05-31
+    day: Monday
+    description: "Memorial Day"
+
+  catholic_holy_days_no_school:
+    note: >
+      Catholic schools may close for these holy days (varies by school):
+      - All Saints' Day (Nov 1, 2026 — Sunday, so likely observed Mon Nov 2)
+      - Immaculate Conception (Dec 8, 2026 — Tuesday)
+      - Ash Wednesday (Feb 17, 2027 — Wednesday, usually early dismissal)
+      - Holy Thursday (Mar 25, 2027 — Thursday)
+      - Good Friday (Mar 26, 2027 — Friday)
+      Verify specific closures with St. Raymond.
+
+contact:
+  phone: "(650) 323-1755"
+  website: https://www.straymond.org/
+  parish: https://straymondmp.org/
+  note: "Contact school office for official 2026-27 calendar"

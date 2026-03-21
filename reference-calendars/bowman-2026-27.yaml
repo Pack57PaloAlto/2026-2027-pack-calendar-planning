@@ -1,0 +1,27 @@
+# Bowman School (Montessori) Palo Alto Calendar
+# Source: https://www.bowmanschool.org/
+# Note: Bowman is a YEAR-ROUND Montessori program
+
+school: Bowman School (Bowman International School)
+type: private_montessori_year_round
+year: 2026-2027
+
+notes:
+  - "Bowman operates a 12-month, year-round program"
+  - "Doors open 7:30 AM - 6:00 PM"
+  - "Serves children from 12 weeks through 12th grade"
+  - "As a year-round program, families have flexible time off"
+  - "Specific break calendar is not publicly posted"
+  - "For Cub Scout planning: Bowman families are generally available"
+  - "  year-round but may take individual vacations at any time"
+
+planning_implications:
+  - "No fixed 'school breaks' to avoid for pack meetings"
+  - "Bowman families may be more flexible with scheduling"
+  - "Standard federal holidays (Labor Day, Thanksgiving, etc.) likely observed"
+  - "Contact school for specific closure dates: (650) 813-9131"
+
+contact:
+  phone: "(650) 813-9131"
+  email: info@bowmanschool.org
+  website: https://www.bowmanschool.org/

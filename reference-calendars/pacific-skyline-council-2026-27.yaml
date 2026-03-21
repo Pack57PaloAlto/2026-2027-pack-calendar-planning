@@ -1,0 +1,273 @@
+# Pacific Skyline Council / Stanford District BSA Calendar 2026-2027
+# Source: https://scoutingevent.com/031 (full council calendar, all 4 pages)
+# Retrieved: March 2026
+
+council: Pacific Skyline Council (BSA)
+district: Stanford District
+year: 2026-2027
+
+# ============================================================================
+# RECURRING STANFORD DISTRICT MEETINGS
+# ============================================================================
+recurring_meetings:
+  stanford_district_roundtable:
+    schedule: "First Thursday of each month"
+    time: "7:30-8:30 PM"
+    location: Virtual
+    dates:
+      - 2026-09-03
+      - 2026-10-01
+      - 2026-11-05
+      - 2026-12-03
+      - 2027-01-07
+      - 2027-02-04
+      - 2027-03-04
+      - 2027-04-01
+      - 2027-05-06
+
+  stanford_district_committee:
+    schedule: "Third Thursday of each month"
+    location: Virtual
+    dates:
+      - 2026-07-16
+      - 2026-08-20
+      - 2026-09-17
+      - 2026-10-15
+      - 2026-11-19
+      - 2026-12-17
+      - 2027-01-21
+      - 2027-02-18
+      - 2027-03-18
+      - 2027-04-15
+      - 2027-05-20  # not listed but pattern
+
+  stanford_commissioners:
+    schedule: "First Thursday of each month"
+    location: Virtual
+    dates:
+      - 2026-09-03
+      - 2026-10-01
+      - 2026-11-05
+      - 2026-12-03
+      - 2027-01-07
+      - 2027-02-04
+      - 2027-03-04
+      - 2027-04-01
+      - 2027-05-06
+
+  stanford_eagle_boards:
+    schedule: "Fourth Thursday of each month"
+    location: "Palo Alto Service Center (in person)"
+    dates:
+      - 2026-07-23
+      - 2026-08-27
+      - 2026-09-24
+      - 2026-10-22
+      - 2026-11-26
+      - 2026-12-24
+      - 2027-01-28
+      - 2027-02-25
+      - 2027-03-25
+      - 2027-04-22
+      - 2027-05-27
+
+# ============================================================================
+# COUNCIL & CUB SCOUT EVENTS (Chronological)
+# ============================================================================
+events:
+  # --- SUMMER 2026 ---
+  - date: 2026-06-28
+    event: "Oljato Summer Camp - Session 2"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-07-05
+    event: "Oljato Summer Camp - Session 3"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-07-12
+    event: "Oljato Summer Camp - Session 4"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-07-13
+    event: "Camp Ta-Ki-Ma Redwood Day Camp"
+    location: Coyote Point Recreation Area, San Mateo
+    type: cub_scout
+
+  - date: 2026-07-18
+    event: "2026 National Jamboree"
+    end_date: 2026-07-31
+    location: Summit Bechtel Reserve, Glen Jean WV
+
+  - date: 2026-07-19
+    event: "Oljato Summer Camp - Session 5"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-07-22
+    event: "Cub Scout Fall Join Night Training"
+    location: Foster City Service Center
+
+  - date: 2026-07-26
+    event: "Oljato Summer Camp - Session 6"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-07-27
+    event: "Camp Ta-Ki-Ma STEM Day Camp"
+    location: Palo Alto Service Center
+    type: cub_scout
+
+  # --- AUGUST 2026 ---
+  - date: 2026-08-07
+    event: "Cub-On (Aug 7-9)"
+    location: Boulder Creek Scout Reservation
+    type: cub_scout
+    notes: "Weekend Cub Scout camping event"
+
+  - date: 2026-08-26
+    event: "Cub Scout Fall Join Night Training"
+    location: Foster City Service Center
+
+  - date: 2026-08-28
+    event: "Wood Badge 2026 - 1st Weekend"
+    location: Boulder Creek Scout Reservation
+
+  - date: 2026-08-29
+    event: "BALOO Training (Fall Session)"
+    location: Palo Alto Service Center
+    notes: "Basic Adult Leader Outdoor Orientation - required for camping"
+
+  # --- SEPTEMBER 2026 ---
+  - date: 2026-09-02
+    event: "Cub Scout Fall Join Night Training (Palo Alto)"
+    location: Palo Alto Service Center
+    type: cub_scout
+
+  - date: 2026-09-04
+    event: "Oljato Work Party Weekend (Labor Day)"
+    location: Camp Oljato, Lakeshore CA
+
+  - date: 2026-09-07
+    event: "Labor Day - OFFICES CLOSED"
+    type: holiday
+
+  - date: 2026-09-19
+    event: "Wood Badge 2026 - 2nd Weekend"
+    location: Boulder Creek Scout Reservation
+
+  - date: 2026-09-20
+    event: "Arrowpalooza"
+    location: Coyote Point Recreation Area, San Mateo
+    type: cub_scout
+    notes: "Major Cub Scout council event!"
+
+  # --- OCTOBER 2026 ---
+  - date: 2026-10-09
+    event: "Cub-On (Oct 9-11)"
+    location: Boulder Creek Scout Reservation
+    type: cub_scout
+    notes: "Weekend Cub Scout camping event"
+
+  - date: 2026-10-16
+    event: "Order of the Arrow Fall Ordeal"
+    location: Boulder Creek Scout Reservation
+
+  - date: 2026-10-23
+    event: "Cub-On (Oct 23-25)"
+    location: Boulder Creek Scout Reservation
+    type: cub_scout
+    notes: "Weekend Cub Scout camping event"
+
+  - date: 2026-10-30
+    event: "Lion & Tiger Jack-O-Lantern Jamboree"
+    location: Palo Alto Service Center
+    type: cub_scout
+    notes: "Halloween event for Lions & Tigers"
+
+  # --- NOVEMBER 2026 ---
+  - date: 2026-11-05
+    event: "Scouting for Food Door Hanger Pickup (at Roundtable)"
+    location: Foster City Service Center
+    type: service
+
+  - date: 2026-11-07
+    event: "Introduction to Outdoor Leadership Skills (IOLS)"
+    location: Boulder Creek Scout Reservation
+    notes: "Fall session training"
+
+  - date: 2026-11-13
+    event: "Stanford District Camporee"
+    location: Boulder Creek Scout Reservation
+    type: district
+    notes: "Key district event!"
+
+  - date: 2026-11-14
+    event: "Scouting for Food Collection Day"
+    location: Foster City Service Center
+    type: service
+    notes: "Annual food drive collection"
+
+  - date: 2026-11-26
+    event: "Thanksgiving - OFFICES CLOSED"
+    type: holiday
+
+  # --- DECEMBER 2026 ---
+  - date: 2026-12-05
+    event: "Winter Family Fun Fest!"
+    location: Palo Alto Service Center
+    type: cub_scout
+    notes: "Council family event"
+
+  - date: 2026-12-24
+    event: "Christmas Eve - OFFICES CLOSED"
+    type: holiday
+
+  - date: 2026-12-25
+    event: "Christmas Day - OFFICES CLOSED"
+    type: holiday
+
+  # --- JANUARY 2027 ---
+  - date: 2027-01-01
+    event: "New Year's Day"
+    type: holiday
+
+  - date: 2027-01-18
+    event: "MLK Day"
+    type: holiday
+
+  # --- FEBRUARY 2027 ---
+  - date: 2027-02-15
+    event: "Washington's Birthday"
+    type: holiday
+
+  # --- MAY 2027 ---
+  - date: 2027-05-31
+    event: "Memorial Day"
+    type: holiday
+
+# ============================================================================
+# KEY CUB SCOUT EVENTS FOR PACK PLANNING
+# ============================================================================
+cub_scout_highlights:
+  - date: 2026-07-13
+    event: "Camp Ta-Ki-Ma Redwood Day Camp"
+  - date: 2026-07-27
+    event: "Camp Ta-Ki-Ma STEM Day Camp"
+  - date: 2026-08-07
+    event: "Cub-On Weekend #1"
+  - date: 2026-08-29
+    event: "BALOO Training"
+  - date: 2026-09-20
+    event: "Arrowpalooza"
+  - date: 2026-10-09
+    event: "Cub-On Weekend #2"
+  - date: 2026-10-23
+    event: "Cub-On Weekend #3"
+  - date: 2026-10-30
+    event: "Jack-O-Lantern Jamboree (Lions & Tigers)"
+  - date: 2026-11-05
+    event: "Scouting for Food Kickoff"
+  - date: 2026-11-13
+    event: "Stanford District Camporee"
+  - date: 2026-11-14
+    event: "Scouting for Food Collection"
+  - date: 2026-12-05
+    event: "Winter Family Fun Fest"
