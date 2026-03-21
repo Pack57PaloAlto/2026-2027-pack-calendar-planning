@@ -55,15 +55,18 @@ estimated_holidays_and_breaks:
     day: Monday
     description: "Memorial Day"
 
-  catholic_holy_days_no_school:
-    note: >
-      Catholic schools may close for these holy days (varies by school):
-      - All Saints' Day (Nov 1, 2026 — Sunday, so likely observed Mon Nov 2)
-      - Immaculate Conception (Dec 8, 2026 — Tuesday)
-      - Ash Wednesday (Feb 17, 2027 — Wednesday, usually early dismissal)
-      - Holy Thursday (Mar 25, 2027 — Thursday)
-      - Good Friday (Mar 26, 2027 — Friday)
-      Verify specific closures with St. Raymond.
+catholic_holy_days_no_school:
+  - date: 2026-11-02
+    description: "All Saints' Day (observed)"
+    notes: "Nov 1 is Sunday; likely observed Monday"
+  - date: 2026-12-08
+    description: "Immaculate Conception"
+  - date: 2027-02-17
+    description: "Ash Wednesday (early dismissal likely)"
+  - date: 2027-03-25
+    description: "Holy Thursday"
+  - date: 2027-03-26
+    description: "Good Friday"
 
 contact:
   phone: "(650) 323-1755"

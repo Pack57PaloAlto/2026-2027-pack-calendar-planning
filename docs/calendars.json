@@ -6,72 +6,92 @@
   },
   "pack_committee": {
     "label": "Committee Meetings",
-    "color": "#5f6368",
+    "color": "#4285f4",
     "checked": false
   },
   "pack_special": {
     "label": "Special Events (Derby, Service)",
-    "color": "#e8710a",
+    "color": "#1565c0",
     "checked": true
   },
   "pack_camping": {
     "label": "Camping Trips",
-    "color": "#137333",
+    "color": "#0d47a1",
     "checked": true
   },
   "pack_conflict": {
     "label": "Conflicts / No-Meeting Days",
-    "color": "#d93025",
+    "color": "#1a73e8",
     "checked": true
   },
   "council": {
     "label": "PacSky Council / District",
-    "color": "#9334e6",
+    "color": "#7b1fa2",
     "checked": false
   },
   "training": {
     "label": "Leader Training (PacSky)",
-    "color": "#78909c",
+    "color": "#9c27b0",
     "checked": false
   },
   "pausd": {
     "label": "PAUSD No-School Days",
-    "color": "#ea4335",
+    "color": "#2e7d32",
     "checked": true
   },
   "hausner": {
     "label": "Hausner (Jewish Day School)",
-    "color": "#fbbc04",
+    "color": "#388e3c",
     "checked": false
   },
   "jcc": {
     "label": "JCC Closures",
-    "color": "#ff6d01",
+    "color": "#43a047",
+    "checked": false
+  },
+  "emerson": {
+    "label": "Emerson Montessori",
+    "color": "#4caf50",
+    "checked": false
+  },
+  "nueva": {
+    "label": "Nueva School",
+    "color": "#66bb6a",
+    "checked": false
+  },
+  "keys": {
+    "label": "Keys School",
+    "color": "#1b5e20",
+    "checked": false
+  },
+  "st_raymond": {
+    "label": "St. Raymond (Catholic)",
+    "color": "#81c784",
     "checked": false
   },
   "jewish": {
     "label": "Jewish Holidays",
-    "color": "#1a73e8",
+    "color": "#c62828",
     "checked": true
   },
   "islamic": {
     "label": "Islamic Holidays",
-    "color": "#0d652d",
+    "color": "#d32f2f",
     "checked": true
   },
   "christian": {
     "label": "Christian Holidays",
-    "color": "#7b1fa2",
+    "color": "#e53935",
     "checked": true
   },
   "hindu": {
     "label": "Hindu / Indian Holidays",
-    "color": "#e65100",
+    "color": "#ef5350",
     "checked": true
   },
   "us_federal": {
     "label": "US Federal Holidays",
-    "color": "#c62828",
+    "color": "#b71c1c",
     "checked": true
   }
 }

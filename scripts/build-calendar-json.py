@@ -24,22 +24,34 @@ PACK_DIR = os.path.join(ROOT, "pack-calendar")
 OUT_DIR = os.path.join(ROOT, "docs")
 
 # FullCalendar event colors per calendar source
+# Pack = blue shades, Council = purple, Schools = green shades,
+# Religious = red shades, Federal = red
 COLORS = {
+    # Pack events — blues
     "pack_meeting":     {"color": "#1a73e8", "textColor": "#fff"},   # blue
-    "pack_committee":   {"color": "#5f6368", "textColor": "#fff"},   # gray
-    "pack_special":     {"color": "#e8710a", "textColor": "#fff"},   # orange
-    "pack_camping":     {"color": "#137333", "textColor": "#fff"},   # green
-    "pack_conflict":    {"color": "#d93025", "textColor": "#fff"},   # red
-    "council":          {"color": "#9334e6", "textColor": "#fff"},   # purple
-    "pausd":            {"color": "#ea4335", "textColor": "#fff"},   # red
-    "hausner":          {"color": "#fbbc04", "textColor": "#000"},   # yellow
-    "jcc":              {"color": "#ff6d01", "textColor": "#fff"},   # orange
-    "jewish":           {"color": "#1a73e8", "textColor": "#fff"},   # blue
-    "islamic":          {"color": "#0d652d", "textColor": "#fff"},   # dark green
-    "christian":        {"color": "#7b1fa2", "textColor": "#fff"},   # purple
-    "hindu":            {"color": "#e65100", "textColor": "#fff"},   # deep orange
-    "us_federal":       {"color": "#c62828", "textColor": "#fff"},   # dark red
-    "training":         {"color": "#78909c", "textColor": "#fff"},   # blue-gray
+    "pack_committee":   {"color": "#4285f4", "textColor": "#fff"},   # lighter blue
+    "pack_special":     {"color": "#1565c0", "textColor": "#fff"},   # dark blue
+    "pack_camping":     {"color": "#0d47a1", "textColor": "#fff"},   # deeper blue
+    "pack_conflict":    {"color": "#e8710a", "textColor": "#fff"},   # orange
+    "den_meeting":      {"color": "#fbc02d", "textColor": "#000"},   # yellow
+    # BSA Council — purples
+    "council":          {"color": "#7b1fa2", "textColor": "#fff"},   # purple
+    "training":         {"color": "#9c27b0", "textColor": "#fff"},   # lighter purple
+    # School calendars — greens
+    "pausd":            {"color": "#2e7d32", "textColor": "#fff"},   # green
+    "hausner":          {"color": "#388e3c", "textColor": "#fff"},   # medium green
+    "jcc":              {"color": "#43a047", "textColor": "#fff"},   # lighter green
+    "emerson":          {"color": "#4caf50", "textColor": "#fff"},   # green
+    "nueva":            {"color": "#66bb6a", "textColor": "#fff"},   # light green
+    "keys":             {"color": "#1b5e20", "textColor": "#fff"},   # dark green
+    "st_raymond":       {"color": "#81c784", "textColor": "#000"},   # pale green
+    # Religious holidays — reds
+    "jewish":           {"color": "#c62828", "textColor": "#fff"},   # dark red
+    "islamic":          {"color": "#d32f2f", "textColor": "#fff"},   # red
+    "christian":        {"color": "#e53935", "textColor": "#fff"},   # medium red
+    "hindu":            {"color": "#ef5350", "textColor": "#fff"},   # light red
+    # Federal holidays — red
+    "us_federal":       {"color": "#b71c1c", "textColor": "#fff"},   # deepest red
 }
 
 
@@ -243,6 +255,77 @@ def parse_jcc():
     return events
 
 
+def parse_school_generic(filename, calendar_key, label):
+    """Generic parser for school calendars with flexible structure."""
+    events = []
+    path = os.path.join(REF_DIR, filename)
+    if not os.path.exists(path):
+        return events
+    try:
+        with open(path) as f:
+            data = yaml.safe_load(f)
+    except yaml.YAMLError as e:
+        print(f"  Warning: Could not parse {filename}: {e}")
+        return events
+
+    if not data:
+        return events
+
+    # Try multiple possible key names for holidays/breaks
+    for key in ["holidays_and_breaks", "estimated_holidays_and_breaks",
+                "no_school_days", "closures", "breaks",
+                "catholic_holy_days_no_school", "known_events"]:
+        section = data.get(key)
+        if not section:
+            continue
+        # If it's a dict with a nested list or note, skip non-list
+        if isinstance(section, dict):
+            continue
+        if not isinstance(section, list):
+            continue
+        for item in section:
+            if not isinstance(item, dict):
+                continue
+            d = item.get("date") or item.get("start")
+            end = item.get("end")
+            desc = item.get("description", item.get("event", "No school"))
+            # Skip entries with approximate dates (start with ~)
+            if d and str(d).startswith("~"):
+                continue
+            if end and str(end).startswith("~"):
+                end = None
+            if d:
+                events.append(make_event(
+                    f"{label}: {desc}", d, end=end, calendar=calendar_key
+                ))
+            # Handle "dates" array format (like St. Raymond)
+            if "dates" in item:
+                dates = item["dates"]
+                if isinstance(dates, list) and len(dates) > 0:
+                    # Check for approximate dates
+                    clean_dates = [dd for dd in dates if not str(dd).startswith("~")]
+                    if len(clean_dates) > 1:
+                        events.append(make_event(
+                            f"{label}: {desc}",
+                            clean_dates[0], end=clean_dates[-1],
+                            calendar=calendar_key
+                        ))
+                    elif len(clean_dates) == 1:
+                        events.append(make_event(
+                            f"{label}: {desc}",
+                            clean_dates[0], calendar=calendar_key
+                        ))
+
+    # Also parse early_release_days if present
+    for d in data.get("early_release_days", []):
+        if d and not str(d).startswith("~"):
+            events.append(make_event(
+                f"{label}: Early Release", d, calendar=calendar_key
+            ))
+
+    return events
+
+
 def parse_religious_calendar(filename, calendar_key, label):
     """Generic parser for religious holiday YAML files."""
     events = []
@@ -376,6 +459,22 @@ def main():
     print("Parsing JCC closures...")
     all_events.extend(parse_jcc())
 
+    print("Parsing Emerson Montessori calendar...")
+    all_events.extend(parse_school_generic(
+        "emerson-montessori-2025-26.yaml", "emerson", "Emerson"))
+
+    print("Parsing Nueva School calendar...")
+    all_events.extend(parse_school_generic(
+        "nueva-2026-27.yaml", "nueva", "Nueva"))
+
+    print("Parsing Keys School calendar...")
+    all_events.extend(parse_school_generic(
+        "keys-2026-27.yaml", "keys", "Keys"))
+
+    print("Parsing St. Raymond calendar...")
+    all_events.extend(parse_school_generic(
+        "st-raymond-2026-27.yaml", "st_raymond", "St. Raymond"))
+
     print("Parsing Jewish holidays...")
     all_events.extend(parse_religious_calendar(
         "jewish-holidays-2026-27.yaml", "jewish", "✡️ Jewish"))
@@ -424,6 +523,10 @@ def main():
         "pausd":          {"label": "PAUSD No-School Days", "color": COLORS["pausd"]["color"], "checked": True},
         "hausner":        {"label": "Hausner (Jewish Day School)", "color": COLORS["hausner"]["color"], "checked": False},
         "jcc":            {"label": "JCC Closures", "color": COLORS["jcc"]["color"], "checked": False},
+        "emerson":        {"label": "Emerson Montessori", "color": COLORS["emerson"]["color"], "checked": False},
+        "nueva":          {"label": "Nueva School", "color": COLORS["nueva"]["color"], "checked": False},
+        "keys":           {"label": "Keys School", "color": COLORS["keys"]["color"], "checked": False},
+        "st_raymond":     {"label": "St. Raymond (Catholic)", "color": COLORS["st_raymond"]["color"], "checked": False},
         "jewish":         {"label": "Jewish Holidays", "color": COLORS["jewish"]["color"], "checked": True},
         "islamic":        {"label": "Islamic Holidays", "color": COLORS["islamic"]["color"], "checked": True},
         "christian":      {"label": "Christian Holidays", "color": COLORS["christian"]["color"], "checked": True},
