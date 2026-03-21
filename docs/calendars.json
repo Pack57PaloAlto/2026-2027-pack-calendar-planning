@@ -7,7 +7,7 @@
   "pack_committee": {
     "label": "Committee Meetings",
     "color": "#4285f4",
-    "checked": false
+    "checked": true
   },
   "pack_special": {
     "label": "Special Events (Derby, Service)",
@@ -19,25 +19,30 @@
     "color": "#0d47a1",
     "checked": true
   },
+  "den_meeting": {
+    "label": "Suggested Den Meetings",
+    "color": "#fbc02d",
+    "checked": false
+  },
   "pack_conflict": {
     "label": "Conflicts / No-Meeting Days",
-    "color": "#1a73e8",
-    "checked": true
+    "color": "#e8710a",
+    "checked": false
   },
   "council": {
     "label": "PacSky Council / District",
     "color": "#7b1fa2",
-    "checked": false
+    "checked": true
   },
   "training": {
     "label": "Leader Training (PacSky)",
     "color": "#9c27b0",
-    "checked": false
+    "checked": true
   },
   "pausd": {
     "label": "PAUSD No-School Days",
     "color": "#2e7d32",
-    "checked": true
+    "checked": false
   },
   "hausner": {
     "label": "Hausner (Jewish Day School)",

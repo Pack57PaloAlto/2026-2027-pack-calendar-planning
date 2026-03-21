@@ -498,6 +498,15 @@
     "description": "\ud83d\udccd Coyote Point Recreation Area, San Mateo. "
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-07-16",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "PacSky: 2026 National Jamboree",
     "start": "2026-07-18",
     "allDay": true,
@@ -540,6 +549,15 @@
     "color": "#c62828",
     "textColor": "#fff",
     "description": "Fast day; destruction of the Temples"
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-07-23",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "PacSky: Oljato Summer Camp - Session 6",
@@ -586,6 +604,15 @@
     "description": "Birthday of Prophet Muhammad (PBUH)"
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-08-20",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "TRAINING: Cub Scout Fall Join Night Training",
     "start": "2026-08-26",
     "allDay": true,
@@ -601,6 +628,15 @@
     "color": "#7b1fa2",
     "textColor": "#fff",
     "description": "\ud83d\udccd Foster City Service Center. "
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-08-27",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "TRAINING: Wood Badge 2026 \u2014 Weekend 1 (Fri-Sun Aug 28-30)",
@@ -663,6 +699,24 @@
     "color": "#4285f4",
     "textColor": "#fff",
     "description": "7:30 PM. Plan the year; finalize calendar with committee. Also Stanford District Roundtable same evening."
+  },
+  {
+    "title": "District: Stanford District Roundtable",
+    "start": "2026-09-03",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2026-09-03",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
   },
   {
     "title": "PacSky: Oljato Work Party Weekend (Labor Day)",
@@ -736,7 +790,7 @@
     "start": "2026-09-12",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Jewish New Year (Sep 11 sunset \u2013 Sep 13 nightfall). JCC closed 9/12; Hausner closed."
   },
@@ -774,6 +828,15 @@
     "textColor": "#fff"
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-09-17",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "TRAINING: Wood Badge 2026 \u2014 Weekend 2 (Sat-Mon Sep 19-21)",
     "start": "2026-09-19",
     "allDay": true,
@@ -791,15 +854,6 @@
     "description": "\ud83d\udccd Boulder Creek Scout Reservation. "
   },
   {
-    "title": "COUNCIL: Arrowpalooza",
-    "start": "2026-09-20",
-    "allDay": true,
-    "calendar": "council",
-    "color": "#7b1fa2",
-    "textColor": "#fff",
-    "description": "Major Cub Scout council event! Encourage families to attend. NOTE: Yom Kippur begins at sunset Sun 9/20 \u2014 Jewish families will not be available."
-  },
-  {
     "title": "PacSky: Arrowpalooza",
     "start": "2026-09-20",
     "allDay": true,
@@ -813,7 +867,7 @@
     "start": "2026-09-21",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Day of Atonement \u2014 holiest day in Judaism. Hausner & JCC closed."
   },
@@ -841,6 +895,15 @@
     "color": "#c62828",
     "textColor": "#fff",
     "description": "Sep 20 sunset \u2013 Sep 21 nightfall (25-hour fast). Day of Atonement \u2014 holiest day of the year"
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-09-24",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "Hausner: Erev Sukkot - Early Dismissal 2:00pm",
@@ -886,6 +949,24 @@
     "description": "7:30 PM. Also Stanford District Roundtable same evening."
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2026-10-01",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2026-10-01",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "Hausner: Shmini Atzeret/Simchat Torah Assembly",
     "start": "2026-10-02",
     "allDay": true,
@@ -898,7 +979,7 @@
     "start": "2026-10-03",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Conclusion of Jewish fall holiday season (Oct 2 sunset \u2013 Oct 4 nightfall). Hausner closed."
   },
@@ -920,13 +1001,13 @@
     "textColor": "#fff"
   },
   {
-    "title": "COUNCIL: Cub-On Weekend (Fri-Sun)",
-    "start": "2026-10-09",
+    "title": "Suggested October Den Meeting 1 of 2",
+    "start": "2026-10-08",
     "allDay": true,
-    "calendar": "council",
-    "color": "#7b1fa2",
-    "textColor": "#fff",
-    "description": "PacSky Cub Scout camping weekend (Oct 9-11). Interested families can attend."
+    "calendar": "den_meeting",
+    "color": "#fbc02d",
+    "textColor": "#000",
+    "description": "Suggested Thursday for den meetings. Den leaders choose their own schedule."
   },
   {
     "title": "PacSky: Cub-On (Oct 9-11)",
@@ -964,6 +1045,15 @@
     "description": "6:30 PM. Theme TBD (Halloween/fall themed?). Hype up fall camping next weekend! Note: Sharad Navratri (Hindu, Oct 10-18) is ongoing \u2014 awareness only."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-10-15",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "TRAINING: Order of the Arrow Fall Ordeal (Fri-Sun Oct 16-18)",
     "start": "2026-10-16",
     "allDay": true,
@@ -987,6 +1077,7 @@
     "calendar": "pack_camping",
     "color": "#0d47a1",
     "textColor": "#fff",
+    "end": "2026-10-19",
     "description": "Pack fall camping trip. No school conflicts, not a long weekend, 2 days after pack meeting, 2 weeks before Halloween. Note: Overlaps with tail end of Sharad Navratri (Hindu) \u2014 some families may observ"
   },
   {
@@ -999,13 +1090,13 @@
     "description": "Victory of good over evil"
   },
   {
-    "title": "COUNCIL: Cub-On Weekend #2 (Fri-Sun)",
-    "start": "2026-10-23",
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-10-22",
     "allDay": true,
     "calendar": "council",
     "color": "#7b1fa2",
     "textColor": "#fff",
-    "description": "Second Cub-On weekend. Backup if families missed our Oct 17 trip."
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "PacSky: Cub-On (Oct 23-25)",
@@ -1017,13 +1108,13 @@
     "description": "\ud83d\udccd Boulder Creek Scout Reservation. Weekend Cub Scout camping event"
   },
   {
-    "title": "COUNCIL: Jack-O-Lantern Jamboree (Lions & Tigers)",
-    "start": "2026-10-30",
+    "title": "Suggested October Den Meeting 2 of 2",
+    "start": "2026-10-29",
     "allDay": true,
-    "calendar": "council",
-    "color": "#7b1fa2",
-    "textColor": "#fff",
-    "description": "Halloween event for Lions & Tigers."
+    "calendar": "den_meeting",
+    "color": "#fbc02d",
+    "textColor": "#000",
+    "description": "Suggested Thursday for den meetings. Den leaders choose their own schedule."
   },
   {
     "title": "PacSky: Lion & Tiger Jack-O-Lantern Jamboree",
@@ -1061,6 +1152,24 @@
     "description": "\ud83d\udccd Foster City Service Center. "
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2026-11-05",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2026-11-05",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "TRAINING: IOLS (Intro to Outdoor Leadership Skills, Sat-Sun Nov 7-8)",
     "start": "2026-11-07",
     "allDay": true,
@@ -1083,7 +1192,7 @@
     "start": "2026-11-08",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Major Hindu holiday. Festival period: Dhanteras 11/6 Fri, Choti Diwali 11/7 Sat, Diwali 11/8 Sun, Govardhan Puja 11/9 Mon, Bhai Dooj 11/10 Tue. Main celebration falls on weekend \u2014 no pack event confli"
   },
@@ -1110,7 +1219,7 @@
     "start": "2026-11-11",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "US federal holiday. PAUSD closed."
   },
@@ -1131,13 +1240,13 @@
     "textColor": "#fff"
   },
   {
-    "title": "DISTRICT: Stanford District Camporee (Fri-Sun)",
-    "start": "2026-11-13",
+    "title": "Suggested November Den Meeting 1 of 1",
+    "start": "2026-11-12",
     "allDay": true,
-    "calendar": "council",
-    "color": "#7b1fa2",
-    "textColor": "#fff",
-    "description": "Key district camping event! Encourage Webelos/AOL to attend."
+    "calendar": "den_meeting",
+    "color": "#fbc02d",
+    "textColor": "#000",
+    "description": "Suggested Thursday for den meetings. Den leaders choose their own schedule."
   },
   {
     "title": "PacSky: Stanford District Camporee",
@@ -1176,11 +1285,20 @@
     "description": "6:30 PM. Theme: Gratitude / Service."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-11-19",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NO MEETINGS] Thanksgiving Break begins",
     "start": "2026-11-23",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "All schools out 11/23-27 (Mon-Fri). Thanksgiving Day is 11/26 Thu."
   },
@@ -1228,6 +1346,15 @@
     "textColor": "#fff"
   },
   {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-11-26",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
+  },
+  {
     "title": "JCC Admin Closed: Thanksgiving & Day After",
     "start": "2026-11-27",
     "allDay": true,
@@ -1245,21 +1372,30 @@
     "description": "7:30 PM. Also Stanford District Roundtable same evening."
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2026-12-03",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2026-12-03",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "Hausner: Hanukkah Starts",
     "start": "2026-12-04",
     "allDay": true,
     "calendar": "hausner",
     "color": "#388e3c",
     "textColor": "#fff"
-  },
-  {
-    "title": "COUNCIL: Winter Family Fun Fest!",
-    "start": "2026-12-05",
-    "allDay": true,
-    "calendar": "council",
-    "color": "#7b1fa2",
-    "textColor": "#fff",
-    "description": "Council family event \u2014 great pack outing opportunity."
   },
   {
     "title": "\u2721\ufe0f Jewish: Hanukkah begins",
@@ -1297,11 +1433,20 @@
     "description": "6:30 PM. Moved to 2nd Thursday to be before winter break. Inclusive holiday celebration \u2014 Hanukkah (12/4-12) is ongoing, Christmas (12/25) and winter solstice (12/21) ahead. Consider activities that honor the "
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2026-12-17",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NO MEETINGS] Winter Break begins",
     "start": "2026-12-19",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "PAUSD break 12/19-1/5; Hausner 12/21-1/1; Emerson ~12/22-1/2. Christmas Eve 12/24, Christmas Day 12/25, New Year's Day 1/1. No pack events until January."
   },
@@ -1331,6 +1476,15 @@
     "color": "#e53935",
     "textColor": "#fff",
     "description": "Evening before Christmas; widely celebrated with services and family"
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2026-12-24",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "JCC Closed: Christmas",
@@ -1408,11 +1562,29 @@
     "description": "7:30 PM. Plan spring semester; Pinewood Derby logistics. Also Stanford District Roundtable same evening."
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2027-01-07",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2027-01-07",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NOTE] Makar Sankranti / Pongal",
     "start": "2027-01-14",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Hindu harvest festival. Thursday \u2014 no pack event this day. Awareness only."
   },
@@ -1430,7 +1602,7 @@
     "start": "2027-01-18",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "US federal holiday. All schools closed."
   },
@@ -1476,6 +1648,15 @@
     "description": "6:30 PM. Theme: Pinewood Derby Kickoff. Distribute kits & rules."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2027-01-21",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "\u2721\ufe0f Jewish: Tu BiShvat",
     "start": "2027-01-22",
     "allDay": true,
@@ -1494,6 +1675,15 @@
     "description": "10:00 AM - 12:00 PM. Saturday workshop for car building."
   },
   {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2027-01-28",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
+  },
+  {
     "title": "Pack Committee Meeting (Virtual)",
     "start": "2027-02-04",
     "allDay": true,
@@ -1501,6 +1691,24 @@
     "color": "#4285f4",
     "textColor": "#fff",
     "description": "7:30 PM. Also Stanford District Roundtable same evening."
+  },
+  {
+    "title": "District: Stanford District Roundtable",
+    "start": "2027-02-04",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2027-02-04",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
   },
   {
     "title": "Pinewood Derby Build Session #2",
@@ -1516,7 +1724,7 @@
     "start": "2027-02-08",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Islamic holy month of fasting dawn-to-sunset (~Feb 8 \u2013 Mar 9). Not a scheduling blocker, but be mindful: sunset is ~5:50 PM in Feb, ~6:15 PM in Mar, so iftar may coincide with 6:30 PM meeting start. C"
   },
@@ -1543,7 +1751,7 @@
     "start": "2027-02-11",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "PAUSD out 2/11-12 (Thu-Fri). Presidents Day 2/15 (Mon). Long weekend."
   },
@@ -1613,12 +1821,30 @@
     "description": "6:30 PM. Theme: Final Pinewood Derby prep. Note: Ramadan ongoing \u2014 Muslim families fasting during daylight."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2027-02-18",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "Hausner: STEM and Maker Fair",
     "start": "2027-02-25",
     "allDay": true,
     "calendar": "hausner",
     "color": "#388e3c",
     "textColor": "#fff"
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2027-02-25",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "Pinewood Derby",
@@ -1639,11 +1865,29 @@
     "description": "7:30 PM. Also Stanford District Roundtable same evening."
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2027-03-04",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2027-03-04",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NOTE] Eid al-Fitr (estimated)",
     "start": "2027-03-10",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "End of Ramadan \u2014 Festival of Breaking the Fast (begins sunset 3/9). Some families may celebrate through Wed 3/10. No pack event conflict."
   },
@@ -1661,7 +1905,7 @@
     "start": "2027-03-11",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Hausner no classes 3/11-12 (Thu-Fri); some families unavailable."
   },
@@ -1670,7 +1914,7 @@
     "start": "2027-03-15",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "PAUSD out 3/15 Mon, staff dev 3/16 Tue."
   },
@@ -1700,12 +1944,22 @@
     "description": "6:30 PM. Theme TBD. Prep for spring camping and Blue & Gold."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2027-03-18",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "SPRING CAMPING TRIP (Sat-Sun Mar 20-21)",
     "start": "2027-03-20",
     "allDay": true,
     "calendar": "pack_camping",
     "color": "#0d47a1",
     "textColor": "#fff",
+    "end": "2027-03-22",
     "description": "Pack spring camping trip. 2 days after pack meeting, 3.5 weeks before Blue & Gold (Apr 15). Good spring weather. Palm Sunday is 3/21 Sun \u2014 families returning Sunday AM may want to attend services. Hol"
   },
   {
@@ -1722,7 +1976,7 @@
     "start": "2027-03-22",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Holi (Hindu Festival of Colors) Mon 3/22. Purim (Jewish) begins sunset Mon 3/22 through Tue 3/23 nightfall. Spring camping ends Sun 3/21 \u2014 no overlap."
   },
@@ -1761,11 +2015,20 @@
     "textColor": "#000"
   },
   {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2027-03-25",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
+  },
+  {
     "title": "[NOTE] Good Friday",
     "start": "2027-03-26",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Christian observance. Many families observe; some businesses close. No pack event conflict."
   },
@@ -1791,7 +2054,7 @@
     "start": "2027-03-28",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Major Christian holiday. March pack meeting was 3/18 \u2014 no conflict."
   },
@@ -1822,11 +2085,29 @@
     "textColor": "#fff"
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2027-04-01",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2027-04-01",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NO MEETINGS] PAUSD Spring Break",
     "start": "2027-04-05",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "PAUSD out 4/5-9 (Mon-Fri)."
   },
@@ -1866,11 +2147,20 @@
     "description": "6:00 PM. Combined pack meeting and Blue & Gold Banquet. No school conflicts \u2014 PAUSD spring break ended 4/9, Hausner Pesach doesn't start until 4/19. All families available. No religious holiday conflicts this "
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2027-04-15",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "[NO MEETINGS] Pesach Break begins (Hausner)",
     "start": "2027-04-19",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Hausner closed 4/19-4/30. Passover: Apr 21 sunset \u2013 Apr 29 nightfall. First 2 days (Apr 22-23) and last 2 days (Apr 28-29) are work-restricted Jewish holidays."
   },
@@ -1893,13 +2183,13 @@
     "description": "Apr 21 sunset \u2013 Apr 29 nightfall (8 days in diaspora). Commemorates the Exodus from Egypt"
   },
   {
-    "title": "Council Pinewood Derby (estimated)",
-    "start": "2027-05-02",
+    "title": "District: Stanford Eagle Boards",
+    "start": "2027-04-22",
     "allDay": true,
     "calendar": "council",
     "color": "#7b1fa2",
     "textColor": "#fff",
-    "description": "Based on 2026 date of May 2; check PacSky calendar."
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
   },
   {
     "title": "TRAINING: Scoutmaster Position-Specific Training",
@@ -1927,6 +2217,24 @@
     "description": "7:30 PM. Also Stanford District Roundtable same evening."
   },
   {
+    "title": "District: Stanford District Roundtable",
+    "start": "2027-05-06",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. 7:30-8:30 PM. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Commissioners",
+    "start": "2027-05-06",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "First Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
     "title": "Hausner: Yom Hazikaron",
     "start": "2027-05-11",
     "allDay": true,
@@ -1943,6 +2251,15 @@
     "textColor": "#fff"
   },
   {
+    "title": "Annual Program Planning & Parent Meeting (Virtual)",
+    "start": "2027-05-13",
+    "allDay": true,
+    "calendar": "pack_committee",
+    "color": "#4285f4",
+    "textColor": "#fff",
+    "description": "7:30 PM. Plan 2027-2028 program year. Gather parent input on activities, camping, schedule preferences."
+  },
+  {
     "title": "\u271d\ufe0f Christian: Pentecost",
     "start": "2027-05-16",
     "allDay": true,
@@ -1956,7 +2273,7 @@
     "start": "2027-05-17",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "Islamic Festival of Sacrifice (~May 16-19, up to 4 days). Final pack meeting is 5/20 Thu \u2014 some families may still be celebrating. Be mindful of attendance."
   },
@@ -1979,11 +2296,29 @@
     "description": "6:30 PM. Awards ceremony. Bridging ceremony for advancing scouts. Recognize volunteers. Announce summer activities. Note: Eid al-Adha (~5/16-19) just ended \u2014 some families may have been traveling."
   },
   {
+    "title": "District: Stanford District Committee",
+    "start": "2027-05-20",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "District: Stanford Eagle Boards",
+    "start": "2027-05-27",
+    "allDay": true,
+    "calendar": "council",
+    "color": "#7b1fa2",
+    "textColor": "#fff",
+    "description": "Fourth Thursday of each month. \ud83d\udccd Palo Alto Service Center (in person)"
+  },
+  {
     "title": "[NO MEETINGS] Memorial Day",
     "start": "2027-05-31",
     "allDay": true,
     "calendar": "pack_conflict",
-    "color": "#1a73e8",
+    "color": "#e8710a",
     "textColor": "#fff",
     "description": "US federal holiday. All schools closed."
   },

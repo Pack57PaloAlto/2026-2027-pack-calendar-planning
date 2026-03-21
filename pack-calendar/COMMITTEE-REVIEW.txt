@@ -40,6 +40,23 @@ OTHER SOURCES
   PAUSD Back to School Night: typically late Aug (~Aug 25-27), no conflict
 
 ================================================================================
+  INTERACTIVE CALENDAR COLOR SCHEME
+================================================================================
+
+  BLUE shades     Pack events (meetings, committee, camping, derby, etc.)
+  YELLOW          Suggested den meeting dates (conflict-free Tuesdays)
+  ORANGE          Conflicts / No-meeting days
+  PURPLE shades   BSA Pacific Skyline Council & Stanford District events
+  GREEN shades    School calendars (PAUSD, Hausner, JCC, Emerson, etc.)
+  RED shades      Religious holidays (Jewish, Islamic, Christian, Hindu)
+                  and US federal holidays
+
+  Default view shows: Pack events, Council, Religious holidays, Federal
+  Toggle ON school calendars and den meetings as needed in the sidebar.
+  View the interactive version at the docs/index.html file.
+
+
+================================================================================
   MONTH-BY-MONTH CALENDAR
 ================================================================================
 
@@ -255,9 +272,32 @@ MAY 2027
     No school conflicts, 3.5 weeks before Blue & Gold.
   - Service: Scouting for Food (door hangers 11/5, collection 11/14)
   - Location: Addison Elementary (continuing)
-  - Den meetings: at least 1x/month; den leaders choose dates
+  - Den meetings: auto-generated conflict-free Tuesdays, 1-2 per month
+    (avoids all pack events, school days off, religious holidays, and
+    federal holidays). Den leaders choose from these or pick their own.
   - Multi-faith calendar reviewed: Jewish, Islamic, Christian, Hindu
     holidays all considered in scheduling decisions
+
+
+================================================================================
+  SUGGESTED DEN MEETING DATES (Tuesdays, conflict-free)
+================================================================================
+
+  These are auto-generated Tuesdays that don't conflict with ANY of our
+  18+ tracked calendars. Den leaders: use these as a starting point.
+
+  The system avoids:
+    - Pack meetings (3rd Thu), committee meetings (1st Thu), special events
+    - PAUSD no-school days and all school breaks
+    - Major Jewish holidays (Rosh Hashanah, Yom Kippur, Sukkot, Passover, etc.)
+    - Major Islamic holidays (Ramadan awareness, Eid al-Fitr, Eid al-Adha)
+    - Major Christian holidays (Christmas, Good Friday, Easter, Ash Wednesday)
+    - Major Hindu holidays (Diwali, Navratri, Holi, Dussehra)
+    - US federal holidays and long weekends
+    - BSA council/district events
+
+  Toggle "Suggested Den Meetings" (yellow) in the interactive calendar
+  to see all 17 suggested dates visually.
 
 
 ================================================================================

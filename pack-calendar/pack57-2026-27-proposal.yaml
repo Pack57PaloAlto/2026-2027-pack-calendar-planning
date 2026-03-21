@@ -512,6 +512,13 @@ may:
     time: "7:30 PM"
     notes: "Also Stanford District Roundtable same evening."
 
+  - date: 2027-05-13  # Thu
+    day: Thursday
+    event: "Annual Program Planning & Parent Meeting (Virtual)"
+    type: pack_committee
+    time: "7:30 PM"
+    notes: "Plan 2027-2028 program year. Gather parent input on activities, camping, schedule preferences."
+
   - date: 2027-05-17  # Mon
     day: Monday
     event: "[NOTE] Eid al-Adha (estimated)"

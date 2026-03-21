@@ -223,6 +223,26 @@
       background: #e8f0fe !important;
     }
 
+    /* List view styling */
+    .fc .fc-list-event-dot {
+      border-color: inherit;
+    }
+    .fc .fc-list-day-cushion {
+      background: #f0f4f8;
+    }
+
+    /* Multi-month (year grid) compact styling */
+    .fc-multimonth {
+      border: none !important;
+    }
+    .fc .fc-multimonth-month {
+      padding: 4px;
+    }
+    .fc .fc-multimonth-daygrid-table .fc-event {
+      font-size: 9px;
+      padding: 0 2px;
+    }
+
     /* Event tooltip / popup */
     .event-popup {
       display: none;
@@ -354,7 +374,10 @@
     <h1>Pack 57 Palo Alto</h1>
     <div class="subtitle">2026-2027 Calendar Proposal</div>
   </div>
-  <div class="badge">DRAFT — Committee Review</div>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <a href="#decisions" style="color:#fff;font-size:13px;text-decoration:none;opacity:0.8;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">Decisions & Questions ↓</a>
+    <div class="badge">DRAFT — Committee Review</div>
+  </div>
 </header>
 
 <div class="overlay" onclick="toggleSidebar()"></div>
@@ -374,14 +397,62 @@
     <div class="legend">
       <h3>About This Calendar</h3>
       <p>
-        This interactive calendar combines <strong>18 sources</strong> including school calendars
-        (PAUSD, Hausner, JCC, Emerson, Nueva, Keys, St. Raymond), religious holidays (Jewish, Islamic, Christian, Hindu),
+        This interactive calendar combines <strong>20+ sources</strong> including school calendars
+        (PAUSD, Hausner, JCC, Emerson, Nueva, Keys, St. Raymond, Bowman), religious holidays (Jewish, Islamic, Christian, Hindu),
         US federal holidays, and BSA Pacific Skyline Council events. Toggle calendars on/off
         using the sidebar to see conflicts and plan around them.
-        Click any event for details.
+        Click any event for details. <strong>Yellow "Suggested Den Meeting" dates</strong> are
+        auto-generated conflict-free Thursdays for den leaders to choose from.
+        <strong>Share a link</strong> — your selected calendars and view are saved in the URL.
       </p>
       <p style="margin-top:8px; font-size:12px; color:#aaa;">
         Pack 57 Palo Alto · Addison Elementary School · Draft for committee review
+      </p>
+    </div>
+
+    <div id="decisions" style="margin-top:24px; background:#fff; border-radius:12px; box-shadow:0 1px 4px rgba(0,0,0,0.08); padding:24px 28px;">
+      <h3 style="font-size:18px; font-weight:600; color:#1a3a5c; margin-bottom:16px;">📋 Decisions Made</h3>
+      <ul style="font-size:14px; line-height:1.8; color:#444; padding-left:20px;">
+        <li><strong>Pack meetings:</strong> 3rd Thursday (Sep &amp; Dec adjusted to 2nd Thu for holidays/break)</li>
+        <li><strong>Blue &amp; Gold Banquet:</strong> April 15 Thu, combined with April pack meeting (6:00 PM start)</li>
+        <li><strong>Fall Camping:</strong> October 17-18 Sat-Sun (no school conflicts, not a long weekend)</li>
+        <li><strong>Spring Camping:</strong> March 20-21 Sat-Sun (no conflicts, 3.5 weeks before B&amp;G)</li>
+        <li><strong>Service Project:</strong> Scouting for Food in November (door hangers 11/5, collection 11/14)</li>
+        <li><strong>Meeting Location:</strong> Addison Elementary (continuing)</li>
+        <li><strong>Den Meetings:</strong> Suggested Thursdays generated avoiding all pack/school/holiday conflicts. Den leaders choose their own schedule.</li>
+        <li><strong>Multi-faith calendar:</strong> Jewish, Islamic, Christian, Hindu holidays all considered</li>
+      </ul>
+
+      <h3 style="font-size:18px; font-weight:600; color:#1a3a5c; margin:24px 0 16px;">❓ Open Questions for Committee</h3>
+      <ol style="font-size:14px; line-height:1.8; color:#444; padding-left:20px;">
+        <li><strong>Fall camping location (Oct 17-18):</strong> Portola Redwoods (~45 min), Memorial County Park (~40 min), Boulder Creek Scout Reservation (~1 hr), or Sanborn County Park (~30 min)?
+          <br><em style="color:#888;">Note: Overlaps with tail end of Navratri (Hindu). Any concerns?</em></li>
+        <li><strong>Spring camping location (Mar 20-21):</strong> Portola Redwoods, Memorial County Park, Boulder Creek, or Big Basin (if reopened)?
+          <br><em style="color:#888;">Note: Palm Sunday is 3/21. Families returning Sun AM may want to attend services.</em></li>
+        <li><strong>Additional service projects?</strong> Scouting for Food confirmed for November. Add a winter/spring community service project? (Earth Day cleanup, park restoration, etc.)</li>
+        <li><strong>Ramadan accommodations (Feb 8 – Mar 9):</strong> Sunset ~5:50 PM Feb / ~6:15 PM Mar — iftar may overlap with 6:30 PM meeting start. Suggestion: have snacks/water, be flexible. Other ideas?</li>
+        <li><strong>Leader training:</strong> Who needs BALOO for camping (Aug 29)? Any interest in Wood Badge (Aug 28-30 + Sep 19-21)?</li>
+      </ol>
+
+      <h3 style="font-size:18px; font-weight:600; color:#1a3a5c; margin:24px 0 16px;">📅 Den Meeting Dates — How They Work</h3>
+      <p style="font-size:14px; line-height:1.7; color:#444;">
+        The yellow "Suggested Den Meeting" dates on the calendar are <strong>auto-generated conflict-free Thursdays</strong>
+        (1-2 per month, Oct 2026 – May 2027). They avoid all:
+      </p>
+      <ul style="font-size:14px; line-height:1.8; color:#444; padding-left:20px; margin-top:8px;">
+        <li>Pack meetings, committee meetings, and special events (derby, camping, B&amp;G)</li>
+        <li>PAUSD no-school days and school breaks</li>
+        <li>Major religious holidays (Jewish, Islamic, Christian, Hindu)</li>
+        <li>US federal holidays and long weekends</li>
+        <li>BSA council/district events and recurring meetings</li>
+      </ul>
+      <p style="font-size:14px; line-height:1.7; color:#444; margin-top:8px;">
+        Den leaders: use these as a starting point. You can meet on other days too — these are just the
+        Thursdays that have zero conflicts across all 20+ calendars we track.
+      </p>
+
+      <p style="margin-top:24px; font-size:12px; color:#aaa; border-top:1px solid #eee; padding-top:12px;">
+        Pack 57 Palo Alto · Addison Elementary School, Palo Alto, CA · Draft for committee review · Generated from 20+ calendar sources
       </p>
     </div>
   </main>
@@ -398,12 +469,49 @@
 
   // Calendar groups for sidebar organization
   const GROUPS = {
-    'Pack Events': ['pack_meeting', 'pack_committee', 'pack_special', 'pack_camping', 'pack_conflict'],
+    'Pack Events': ['pack_meeting', 'pack_committee', 'pack_special', 'pack_camping', 'den_meeting', 'pack_conflict'],
     'BSA Council & District': ['council', 'training'],
     'School Calendars': ['pausd', 'hausner', 'jcc', 'emerson', 'nueva', 'keys', 'st_raymond'],
     'Religious Holidays': ['jewish', 'islamic', 'christian', 'hindu'],
     'Federal Holidays': ['us_federal'],
   };
+
+  // Valid view names
+  const VALID_VIEWS = ['dayGridMonth', 'multiMonthYear', 'dayGridYear', 'listYear'];
+
+  // --- URL parameter helpers ---
+  function getParamsFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const result = {};
+
+    // Selected calendars
+    if (params.has('cal')) {
+      result.calendars = params.get('cal').split(',').filter(Boolean);
+    }
+
+    // View type
+    if (params.has('view') && VALID_VIEWS.includes(params.get('view'))) {
+      result.view = params.get('view');
+    }
+
+    return result;
+  }
+
+  function updateURL() {
+    const params = new URLSearchParams();
+
+    // Save selected calendars
+    const calArr = Array.from(activeCalendars).sort();
+    params.set('cal', calArr.join(','));
+
+    // Save current view
+    if (calendar) {
+      params.set('view', calendar.view.type);
+    }
+
+    const newURL = window.location.pathname + '?' + params.toString();
+    window.history.replaceState(null, '', newURL);
+  }
 
   async function init() {
     // Load data
@@ -414,10 +522,22 @@
     allEvents = await eventsRes.json();
     calendarMeta = await metaRes.json();
 
-    // Set initial active calendars
-    for (const [key, meta] of Object.entries(calendarMeta)) {
-      if (meta.checked) activeCalendars.add(key);
+    // Check URL params first
+    const urlParams = getParamsFromURL();
+
+    if (urlParams.calendars) {
+      // Use calendars from URL
+      for (const key of urlParams.calendars) {
+        if (calendarMeta[key]) activeCalendars.add(key);
+      }
+    } else {
+      // Use defaults from metadata
+      for (const [key, meta] of Object.entries(calendarMeta)) {
+        if (meta.checked) activeCalendars.add(key);
+      }
     }
+
+    const initialView = urlParams.view || 'dayGridMonth';
 
     // Build sidebar toggles
     buildSidebar();
@@ -425,25 +545,41 @@
     // Initialize FullCalendar
     const calendarEl = document.getElementById('calendar');
     calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: 'dayGridMonth',
+      initialView: initialView,
       initialDate: '2026-09-01',
       headerToolbar: {
         left: 'prev,next today',
         center: 'title',
-        right: 'dayGridMonth,dayGridYear'
+        right: 'dayGridMonth,multiMonthYear,dayGridYear,listYear'
       },
       views: {
-        dayGridYear: {
-          buttonText: 'Year'
-        },
         dayGridMonth: {
           buttonText: 'Month'
+        },
+        multiMonthYear: {
+          buttonText: 'Year Grid',
+          multiMonthMaxColumns: 3,
+          duration: { months: 9 },
+        },
+        dayGridYear: {
+          buttonText: 'Year',
+          duration: { months: 9 },
+        },
+        listYear: {
+          buttonText: 'List',
+          duration: { months: 9 },
+          listDayFormat: { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' },
+          noEventsText: 'No events to display. Try selecting more calendars.'
         }
       },
       events: getFilteredEvents(),
       eventClick: function(info) {
         info.jsEvent.preventDefault();
         showPopup(info.event, info.jsEvent);
+      },
+      viewDidMount: function() {
+        // Update URL when view changes
+        updateURL();
       },
       dayMaxEvents: 4,
       moreLinkClick: 'popover',
@@ -452,6 +588,7 @@
     });
 
     calendar.render();
+    updateURL(); // Set initial URL
 
     // Close popup on click outside
     document.addEventListener('click', function(e) {
@@ -469,6 +606,7 @@
   function refreshCalendar() {
     calendar.removeAllEvents();
     calendar.addEventSource(getFilteredEvents());
+    updateURL();
   }
 
   function buildSidebar() {

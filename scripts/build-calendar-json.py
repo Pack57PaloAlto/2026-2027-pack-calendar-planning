@@ -106,6 +106,10 @@ def parse_pack_proposal():
             notes = item.get("notes", "")
             time_str = item.get("time", "")
 
+            # Skip council/district events from proposal — they come from PacSky YAML
+            if t in ("council_event", "district_event"):
+                continue
+
             if t == "pack_meeting":
                 cal = "pack_meeting"
             elif t == "pack_committee":
@@ -116,8 +120,6 @@ def parse_pack_proposal():
                 cal = "pack_special"
             elif t == "service_project":
                 cal = "pack_special"
-            elif t in ("council_event", "district_event"):
-                cal = "council"
             elif t in ("conflict", "cultural_note"):
                 cal = "pack_conflict"
             else:
@@ -129,7 +131,20 @@ def parse_pack_proposal():
             if isinstance(notes, str) and notes.strip():
                 desc += notes.strip()[:200]
 
-            events.append(make_event(title, d, description=desc, calendar=cal))
+            # For camping events, parse the end date from the title if present
+            end_date = None
+            if t == "camping":
+                # Try to extract end date: titles like "FALL CAMPING TRIP (Sat-Sun Oct 17-18)"
+                import re
+                m = re.search(r'(\d+)-(\d+)\)', title)
+                if m:
+                    start_day = int(m.group(1))
+                    end_day = int(m.group(2))
+                    start_d = to_date_str(d)
+                    start_dt = datetime.strptime(start_d, "%Y-%m-%d")
+                    end_date = start_dt.replace(day=end_day)
+
+            events.append(make_event(title, d, end=end_date, description=desc, calendar=cal))
 
     # Training dates
     if "training" in data:
@@ -429,7 +444,126 @@ def parse_council():
             calendar="council"
         ))
 
+    # Also parse recurring_meetings (roundtable, district committee, etc.)
+    recurring = data.get("recurring_meetings", {})
+    for key, info in recurring.items():
+        if not isinstance(info, dict):
+            continue
+        schedule = info.get("schedule", "")
+        location = info.get("location", "")
+        time_str = info.get("time", "")
+        dates = info.get("dates", [])
+
+        # Build a friendly label from the key
+        label = key.replace("_", " ").title()
+
+        desc = ""
+        if schedule:
+            desc += f"{schedule}. "
+        if time_str:
+            desc += f"{time_str}. "
+        if location:
+            desc += f"📍 {location}"
+
+        for d in dates:
+            events.append(make_event(
+                f"District: {label}",
+                d,
+                description=desc.strip(),
+                calendar="council"
+            ))
+
     return events
+
+
+def generate_den_meetings(all_events):
+    """Generate suggested den meeting dates (Thursdays) avoiding all conflicts.
+
+    Logic:
+    - Den meetings are on Thursdays, 1-2 per month
+    - Must NOT fall on the same day as any pack meeting, committee meeting,
+      special event, camping trip, or council event
+    - Must NOT fall on holidays (federal, religious, school no-school days)
+    - Must NOT fall during school breaks
+    - Season: Oct 2026 (after Oct 1) through May 2027
+    """
+    den_events = []
+
+    # Build a set of all blocked dates from existing events
+    blocked_dates = set()
+    for evt in all_events:
+        start_str = evt["start"]
+
+        try:
+            start_d = datetime.strptime(start_str, "%Y-%m-%d").date()
+        except (ValueError, TypeError):
+            continue
+
+        blocked_dates.add(start_d)
+
+        # For multi-day events, block the entire range
+        if "end" in evt and evt["end"]:
+            try:
+                end_d = datetime.strptime(evt["end"], "%Y-%m-%d").date()
+                # FullCalendar end is exclusive, so end_d is already +1
+                d = start_d
+                while d < end_d:
+                    blocked_dates.add(d)
+                    d += timedelta(days=1)
+            except (ValueError, TypeError):
+                pass
+
+    # Generate Thursdays from Oct 2 2026 through May 2027
+    d = date(2026, 10, 1)
+    while d.weekday() != 3:  # 3 = Thursday
+        d += timedelta(days=1)
+
+    end_date = date(2027, 5, 31)
+    thursdays = []
+    while d <= end_date:
+        thursdays.append(d)
+        d += timedelta(days=7)
+
+    # Filter out blocked Thursdays
+    available = [t for t in thursdays if t not in blocked_dates]
+
+    # Pick 1-2 per month, spread apart
+    from collections import defaultdict
+    month_names = ["", "January", "February", "March", "April", "May", "June",
+                   "July", "August", "September", "October", "November", "December"]
+    by_month = defaultdict(list)
+    for t in available:
+        by_month[(t.year, t.month)].append(t)
+
+    for (year, month), dates in sorted(by_month.items()):
+        if not dates:
+            continue
+        # Pick up to 2 dates per month, spread apart
+        if len(dates) == 1:
+            picks = dates
+        elif len(dates) == 2:
+            picks = dates
+        else:
+            # Pick first and one ~2 weeks later
+            picks = [dates[0]]
+            for dd in dates[1:]:
+                if (dd - picks[-1]).days >= 12:
+                    picks.append(dd)
+                    break
+            if len(picks) == 1 and len(dates) >= 2:
+                picks.append(dates[-1])
+
+        total = len(picks)
+        for i, pick in enumerate(picks, 1):
+            den_events.append(make_event(
+                f"Suggested {month_names[pick.month]} Den Meeting {i} of {total}",
+                pick,
+                description="Suggested Thursday for den meetings. Den leaders choose their own schedule.",
+                calendar="den_meeting"
+            ))
+
+    print(f"  Generated {len(den_events)} suggested den meeting dates")
+    return den_events
 
 
 def deduplicate(events):
@@ -497,6 +631,10 @@ def main():
     print("Parsing PacSky council events...")
     all_events.extend(parse_council())
 
+    # Generate suggested den meeting dates (after all other events are loaded)
+    print("Generating suggested den meeting dates...")
+    all_events.extend(generate_den_meetings(all_events))
+
     # Deduplicate
     all_events = deduplicate(all_events)
 
@@ -512,15 +650,18 @@ def main():
     print(f"\nWrote {len(all_events)} events to {out_path}")
 
     # Also write calendar metadata for the UI
+    # Default selected: Pack events, BSA Council/District, Religious, Federal
+    # NOT selected: Schools, Conflicts, Den Meetings
     calendars = {
         "pack_meeting":   {"label": "Pack Meetings", "color": COLORS["pack_meeting"]["color"], "checked": True},
         "pack_committee": {"label": "Committee Meetings", "color": COLORS["pack_committee"]["color"], "checked": True},
         "pack_special":   {"label": "Special Events (Derby, Service)", "color": COLORS["pack_special"]["color"], "checked": True},
         "pack_camping":   {"label": "Camping Trips", "color": COLORS["pack_camping"]["color"], "checked": True},
+        "den_meeting":    {"label": "Suggested Den Meetings", "color": COLORS["den_meeting"]["color"], "checked": False},
         "pack_conflict":  {"label": "Conflicts / No-Meeting Days", "color": COLORS["pack_conflict"]["color"], "checked": False},
         "council":        {"label": "PacSky Council / District", "color": COLORS["council"]["color"], "checked": True},
         "training":       {"label": "Leader Training (PacSky)", "color": COLORS["training"]["color"], "checked": True},
-        "pausd":          {"label": "PAUSD No-School Days", "color": COLORS["pausd"]["color"], "checked": True},
+        "pausd":          {"label": "PAUSD No-School Days", "color": COLORS["pausd"]["color"], "checked": False},
         "hausner":        {"label": "Hausner (Jewish Day School)", "color": COLORS["hausner"]["color"], "checked": False},
         "jcc":            {"label": "JCC Closures", "color": COLORS["jcc"]["color"], "checked": False},
         "emerson":        {"label": "Emerson Montessori", "color": COLORS["emerson"]["color"], "checked": False},
