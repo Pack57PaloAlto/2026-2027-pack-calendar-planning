@@ -407,27 +407,16 @@ march:
 
   - date: 2027-03-18  # Thu
     day: Thursday
-    event: March Pack Meeting
+    event: "March Pack Meeting + BLUE & GOLD BANQUET"
     type: pack_meeting
-    time: "6:30 PM"
+    time: "6:00 PM"
     location: Addison Elementary School
-    notes: "Theme TBD. Prep for spring camping and Blue & Gold."
-
-  - date: 2027-03-20  # Sat
-    day: Saturday
-    event: "SPRING CAMPING TRIP (Sat-Sun Mar 20-21)"
-    type: camping
-    location: "TBD — committee to decide"
     notes: >
-      Pack spring camping trip. 2 days after pack meeting,
-      3.5 weeks before Blue & Gold (Apr 15). Good spring weather.
-      Palm Sunday is 3/21 Sun — families returning Sunday AM may
-      want to attend services. Holi (Hindu) is Mon 3/22.
-      LOCATION OPTIONS:
-        - Portola Redwoods State Park
-        - Memorial County Park
-        - Boulder Creek Scout Reservation
-        - Big Basin area (if reopened)
+      Combined pack meeting and Blue & Gold Banquet.
+      3 weeks after Pinewood Derby (Feb 27) — good spacing.
+      No school or religious conflicts this week.
+      Start 30 min early (6:00 PM) for potluck/dinner + awards.
+      Hype up spring camping Apr 17-18!
 
   - date: 2027-03-22  # Mon
     day: Monday
@@ -436,7 +425,6 @@ march:
     notes: >
       Holi (Hindu Festival of Colors) Mon 3/22.
       Purim (Jewish) begins sunset Mon 3/22 through Tue 3/23 nightfall.
-      Spring camping ends Sun 3/21 — no overlap.
 
   - date: 2027-03-26  # Fri
     day: Friday
@@ -471,16 +459,29 @@ april:
 
   - date: 2027-04-15  # Thu
     day: Thursday
-    event: "April Pack Meeting + BLUE & GOLD BANQUET"
+    event: April Pack Meeting
     type: pack_meeting
-    time: "6:00 PM"
+    time: "6:30 PM"
     location: Addison Elementary School
     notes: >
-      Combined pack meeting and Blue & Gold Banquet.
       No school conflicts — PAUSD spring break ended 4/9,
       Hausner Pesach doesn't start until 4/19. All families available.
-      No religious holiday conflicts this week.
-      Start 30 min early (6:00 PM) for potluck/dinner + awards.
+      Hype up spring camping this Saturday!
+
+  - date: 2027-04-17  # Sat
+    day: Saturday
+    event: "SPRING CAMPING TRIP (Sat-Sun Apr 17-18)"
+    type: camping
+    location: "TBD — committee to decide"
+    notes: >
+      Pack spring camping trip. 2 days after April pack meeting.
+      Warmer & longer daylight than March. All PAUSD families
+      back from spring break. Before Hausner Pesach (4/19).
+      LOCATION OPTIONS:
+        - Portola Redwoods State Park
+        - Memorial County Park
+        - Boulder Creek Scout Reservation
+        - Big Basin area (if reopened)
 
   - date: 2027-04-19  # Mon
     day: Monday
@@ -622,7 +623,7 @@ summary:
     - "2027-01-21 Thu"
     - "2027-02-18 Thu"  # During Ramadan
     - "2027-03-18 Thu"
-    - "2027-04-15 Thu"  # Blue & Gold Banquet (6:00 PM start)
+    - "2027-04-15 Thu"
     - "2027-05-20 Thu"  # Near Eid al-Adha
 
   pack_committee_meetings:  # 1st Thursday, virtual (also District Roundtable)
@@ -650,7 +651,7 @@ summary:
     - date: "2027-03-20 Sat"
       event: "Spring Camping Trip (Sat-Sun, location TBD)"
     - date: "2027-04-15 Thu"
-      event: "Blue & Gold Banquet (combined with April pack meeting)"
+      event: "Blue & Gold Banquet (combined with March pack meeting)"
 
   council_district_events:
     - "9/20 Sun: Arrowpalooza @ Coyote Point (NOTE: Erev Yom Kippur)"
@@ -695,7 +696,7 @@ cultural_awareness:
   passover_2027:
     dates: "Apr 21-29, 2027"
     impact: >
-      Blue & Gold (Apr 15) is safely before Passover.
+      Blue & Gold (Mar 18) is 3 weeks after Derby, well before Passover.
       Hausner closes 4/19-4/30. No pack events during this period.
 
   eid_al_adha_2027:
@@ -707,9 +708,9 @@ cultural_awareness:
 # ============================================================================
 decisions_made:
   - "Pack meetings: 3rd Thursday (Sep & Dec adjusted to 2nd Thursday for holidays/break)"
-  - "Blue & Gold Banquet: April 15 Thu, combined with April pack meeting (no conflicts)"
+  - "Blue & Gold Banquet: March 18 Thu, combined with March pack meeting (3 weeks after Derby)"
   - "Fall Camping: October 17-18 Sat-Sun (no school conflicts, not a long weekend)"
-  - "Spring Camping: March 20-21 Sat-Sun (no conflicts, 3.5 weeks before B&G)"
+  - "Spring Camping: April 17-18 Sat-Sun (warmer, longer daylight, 2 days after April pack meeting)"
   - "Service: Scouting for Food in November (door hangers 11/5, collection 11/14)"
   - "Location: Addison Elementary (continuing)"
   - "Den meetings: at least once per month; den leaders choose from suggested date options"
@@ -791,9 +792,9 @@ den_meeting_options:
       - "Week of 3/22 (Tue-Fri): after pack meeting (Mon 3/22 is Holi/Purim)"
 
   april_2027:
-    avoid: ["4/1 Thu pack committee", "4/5-9 PAUSD Spring Break", "4/15 Thu Blue & Gold", "4/19-30 Hausner Pesach / Passover 4/21-29"]
+    avoid: ["4/1 Thu pack committee", "4/5-9 PAUSD Spring Break", "4/15 Thu pack meeting", "4/17-18 spring camping", "4/19-30 Hausner Pesach / Passover 4/21-29"]
     suggested_weeks:
-      - "Week of 4/12 (Mon-Wed): after spring break, before B&G"
+      - "Week of 4/12 (Mon-Wed): after spring break, before pack meeting"
     note: "Tricky month — Pesach 4/19-30 limits late-April options. One meeting is OK."
 
   may_2027:

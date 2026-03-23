@@ -1935,13 +1935,13 @@
     "textColor": "#fff"
   },
   {
-    "title": "March Pack Meeting",
+    "title": "March Pack Meeting + BLUE & GOLD BANQUET",
     "start": "2027-03-18",
     "allDay": true,
     "calendar": "pack_meeting",
     "color": "#1a73e8",
     "textColor": "#fff",
-    "description": "6:30 PM. Theme TBD. Prep for spring camping and Blue & Gold."
+    "description": "6:00 PM. Combined pack meeting and Blue & Gold Banquet. 3 weeks after Pinewood Derby (Feb 27) \u2014 good spacing. No school or religious conflicts this week. Start 30 min early (6:00 PM) for potluck/dinner + award"
   },
   {
     "title": "District: Stanford District Committee",
@@ -1951,16 +1951,6 @@
     "color": "#7b1fa2",
     "textColor": "#fff",
     "description": "Third Thursday of each month. \ud83d\udccd Virtual"
-  },
-  {
-    "title": "SPRING CAMPING TRIP (Sat-Sun Mar 20-21)",
-    "start": "2027-03-20",
-    "allDay": true,
-    "calendar": "pack_camping",
-    "color": "#0d47a1",
-    "textColor": "#fff",
-    "end": "2027-03-22",
-    "description": "Pack spring camping trip. 2 days after pack meeting, 3.5 weeks before Blue & Gold (Apr 15). Good spring weather. Palm Sunday is 3/21 Sun \u2014 families returning Sunday AM may want to attend services. Hol"
   },
   {
     "title": "\u271d\ufe0f Christian: Palm Sunday",
@@ -1978,7 +1968,7 @@
     "calendar": "pack_conflict",
     "color": "#e8710a",
     "textColor": "#fff",
-    "description": "Holi (Hindu Festival of Colors) Mon 3/22. Purim (Jewish) begins sunset Mon 3/22 through Tue 3/23 nightfall. Spring camping ends Sun 3/21 \u2014 no overlap."
+    "description": "Holi (Hindu Festival of Colors) Mon 3/22. Purim (Jewish) begins sunset Mon 3/22 through Tue 3/23 nightfall."
   },
   {
     "title": "\ud83d\udd49\ufe0f Hindu: Holi",
@@ -2138,13 +2128,13 @@
     "textColor": "#fff"
   },
   {
-    "title": "April Pack Meeting + BLUE & GOLD BANQUET",
+    "title": "April Pack Meeting",
     "start": "2027-04-15",
     "allDay": true,
     "calendar": "pack_meeting",
     "color": "#1a73e8",
     "textColor": "#fff",
-    "description": "6:00 PM. Combined pack meeting and Blue & Gold Banquet. No school conflicts \u2014 PAUSD spring break ended 4/9, Hausner Pesach doesn't start until 4/19. All families available. No religious holiday conflicts this "
+    "description": "6:30 PM. No school conflicts \u2014 PAUSD spring break ended 4/9, Hausner Pesach doesn't start until 4/19. All families available. Hype up spring camping this Saturday!"
   },
   {
     "title": "District: Stanford District Committee",
@@ -2154,6 +2144,16 @@
     "color": "#7b1fa2",
     "textColor": "#fff",
     "description": "Third Thursday of each month. \ud83d\udccd Virtual"
+  },
+  {
+    "title": "SPRING CAMPING TRIP (Sat-Sun Apr 17-18)",
+    "start": "2027-04-17",
+    "allDay": true,
+    "calendar": "pack_camping",
+    "color": "#0d47a1",
+    "textColor": "#fff",
+    "end": "2027-04-19",
+    "description": "Pack spring camping trip. 2 days after April pack meeting. Warmer & longer daylight than March. All PAUSD families back from spring break. Before Hausner Pesach (4/19). LOCATION OPTIONS:\n  - Portola R"
   },
   {
     "title": "[NO MEETINGS] Pesach Break begins (Hausner)",
