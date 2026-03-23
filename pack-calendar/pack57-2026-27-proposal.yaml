@@ -4,7 +4,7 @@
 # For committee review before distribution to parents
 #
 # Planning principles:
-#   1. Pack meetings on 3rd Thursday of the month (current pattern)
+#   1. Pack meetings on 2nd Thursday of the month
 #   2. Pack committee meetings 1st Thursday of the month (virtual)
 #      (Stanford District Roundtable is the same evening)
 #   3. Avoid all PAUSD no-school days, major religious holidays, and
@@ -126,14 +126,15 @@ october:
     location: Boulder Creek Scout Reservation
     notes: "PacSky Cub Scout camping weekend (Oct 9-11). Interested families can attend."
 
-  - date: 2026-10-15  # Thu
+  - date: 2026-10-08  # Thu
     day: Thursday
     event: October Pack Meeting
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
     notes: >
-      Theme TBD (Halloween/fall themed?). Hype up fall camping next weekend!
+      2nd Thursday. Theme TBD (Halloween/fall themed?).
+      Hype up fall camping next weekend (Oct 17-18)!
       Note: Sharad Navratri (Hindu, Oct 10-18) is ongoing — awareness only.
 
   - date: 2026-10-17  # Sat
@@ -213,13 +214,13 @@ november:
     location: Foster City Service Center
     notes: "Annual food drive collection. Coordinate with local food bank."
 
-  - date: 2026-11-19  # Thu
+  - date: 2026-11-12  # Thu
     day: Thursday
     event: November Pack Meeting
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
-    notes: "Theme: Gratitude / Service."
+    notes: "2nd Thursday. Theme: Gratitude / Service. Before Thanksgiving break."
 
   - date: 2026-11-23  # Mon
     day: Monday
@@ -303,13 +304,16 @@ january:
     type: conflict
     notes: "US federal holiday. All schools closed."
 
-  - date: 2027-01-21  # Thu
+  - date: 2027-01-14  # Thu
     day: Thursday
     event: January Pack Meeting
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
-    notes: "Theme: Pinewood Derby progress check. Kits distributed at Dec meeting; Build #1 was Dec 12, Build #2 is Feb 6."
+    notes: >
+      2nd Thursday. Theme: Pinewood Derby progress check.
+      Kits distributed at Dec meeting; Build #1 was Dec 12, Build #2 is Feb 6.
+      Note: Makar Sankranti / Pongal (Hindu harvest) same day — awareness only.
 
 # ============================================================================
 # FEBRUARY 2027
@@ -348,14 +352,15 @@ february:
     type: conflict
     notes: "PAUSD out 2/11-12 (Thu-Fri). Presidents Day 2/15 (Mon). Long weekend."
 
-  - date: 2027-02-18  # Thu
+  - date: 2027-02-11  # Thu
     day: Thursday
     event: February Pack Meeting
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
     notes: >
-      Theme: Final Pinewood Derby prep.
+      2nd Thursday. PAUSD Local Holiday same day (kids off school, but
+      evening meeting is fine). Theme: Final Pinewood Derby prep.
       Note: Ramadan ongoing — Muslim families fasting during daylight.
 
   - date: 2027-02-27  # Sat
@@ -405,16 +410,16 @@ march:
     type: conflict
     notes: "PAUSD out 3/15 Mon, staff dev 3/16 Tue."
 
-  - date: 2027-03-18  # Thu
+  - date: 2027-03-11  # Thu
     day: Thursday
     event: "March Pack Meeting + BLUE & GOLD BANQUET"
     type: pack_meeting
     time: "6:00 PM"
     location: Addison Elementary School
     notes: >
-      Combined pack meeting and Blue & Gold Banquet.
-      3 weeks after Pinewood Derby (Feb 27) — good spacing.
-      No school or religious conflicts this week.
+      2nd Thursday. Combined pack meeting and Blue & Gold Banquet.
+      12 days after Pinewood Derby (Feb 27). Hausner P/T conferences
+      same day (daytime only — no evening conflict).
       Start 30 min early (6:00 PM) for potluck/dinner + awards.
       Hype up spring camping Apr 17-18!
 
@@ -464,9 +469,9 @@ april:
     time: "6:30 PM"
     location: Addison Elementary School
     notes: >
-      No school conflicts — PAUSD spring break ended 4/9,
-      Hausner Pesach doesn't start until 4/19. All families available.
-      Hype up spring camping this Saturday!
+      Moved to 3rd Thursday (2nd Thu 4/8 falls during PAUSD spring break).
+      No school or religious conflicts this week. All families available.
+      Hype up spring camping this Saturday (Apr 17-18)!
 
   - date: 2027-04-17  # Sat
     day: Saturday
@@ -509,17 +514,24 @@ may:
 
   - date: 2027-05-06  # Thu
     day: Thursday
-    event: Pack Committee Meeting (Virtual)
+    event: "Pack Committee Meeting + Annual Program Planning (Virtual)"
     type: pack_committee
     time: "7:30 PM"
-    notes: "Also Stanford District Roundtable same evening."
+    notes: >
+      Also Stanford District Roundtable same evening.
+      Plan 2027-2028 program year. Gather parent input on
+      activities, camping, schedule preferences.
 
   - date: 2027-05-13  # Thu
     day: Thursday
-    event: "Annual Program Planning & Parent Meeting (Virtual)"
-    type: pack_committee
-    time: "7:30 PM"
-    notes: "Plan 2027-2028 program year. Gather parent input on activities, camping, schedule preferences."
+    event: Final Pack Meeting / Year-End Celebration
+    type: pack_meeting
+    time: "6:30 PM"
+    location: Addison Elementary School
+    notes: >
+      2nd Thursday. Awards ceremony. Bridging ceremony for
+      advancing scouts. Recognize volunteers.
+      Announce summer activities.
 
   - date: 2027-05-17  # Mon
     day: Monday
@@ -527,20 +539,6 @@ may:
     type: cultural_note
     notes: >
       Islamic Festival of Sacrifice (~May 16-19, up to 4 days).
-      Final pack meeting is 5/20 Thu — some families may still be
-      celebrating. Be mindful of attendance.
-
-  - date: 2027-05-20  # Thu
-    day: Thursday
-    event: Final Pack Meeting / Year-End Celebration
-    type: pack_meeting
-    time: "6:30 PM"
-    location: Addison Elementary School
-    notes: >
-      Awards ceremony. Bridging ceremony for advancing scouts.
-      Recognize volunteers. Announce summer activities.
-      Note: Eid al-Adha (~5/16-19) just ended — some families
-      may have been traveling.
 
   - date: 2027-05-31  # Mon
     day: Monday
@@ -615,16 +613,16 @@ training:
 # SUMMARY: KEY DATES AT A GLANCE
 # ============================================================================
 summary:
-  pack_meetings:  # 3rd Thursday (adjusted as needed)
-    - "2026-09-10 Thu"  # Moved to 2nd Thu (Rosh Hashanah proximity)
-    - "2026-10-15 Thu"
-    - "2026-11-19 Thu"
-    - "2026-12-10 Thu"  # Moved to 2nd Thu (winter break)
-    - "2027-01-21 Thu"
-    - "2027-02-18 Thu"  # During Ramadan
-    - "2027-03-18 Thu"
-    - "2027-04-15 Thu"
-    - "2027-05-20 Thu"  # Near Eid al-Adha
+  pack_meetings:  # 2nd Thursday (adjusted as needed)
+    - "2026-09-10 Thu"
+    - "2026-10-08 Thu"
+    - "2026-11-12 Thu"
+    - "2026-12-10 Thu"
+    - "2027-01-14 Thu"
+    - "2027-02-11 Thu"  # PAUSD holiday same day (evening meeting OK)
+    - "2027-03-11 Thu"  # Blue & Gold Banquet
+    - "2027-04-15 Thu"  # Moved to 3rd Thu (2nd falls during spring break)
+    - "2027-05-13 Thu"
 
   pack_committee_meetings:  # 1st Thursday, virtual (also District Roundtable)
     - "2026-09-03 Thu"
@@ -650,7 +648,7 @@ summary:
       event: Pinewood Derby
     - date: "2027-03-20 Sat"
       event: "Spring Camping Trip (Sat-Sun, location TBD)"
-    - date: "2027-04-15 Thu"
+    - date: "2027-03-11 Thu"
       event: "Blue & Gold Banquet (combined with March pack meeting)"
 
   council_district_events:
@@ -707,8 +705,8 @@ cultural_awareness:
 # DECISIONS MADE
 # ============================================================================
 decisions_made:
-  - "Pack meetings: 3rd Thursday (Sep & Dec adjusted to 2nd Thursday for holidays/break)"
-  - "Blue & Gold Banquet: March 18 Thu, combined with March pack meeting (3 weeks after Derby)"
+  - "Pack meetings: 2nd Thursday (April adjusted to 3rd Thursday for PAUSD spring break)"
+  - "Blue & Gold Banquet: March 11 Thu, combined with March pack meeting (12 days after Derby)"
   - "Fall Camping: October 17-18 Sat-Sun (no school conflicts, not a long weekend)"
   - "Spring Camping: April 17-18 Sat-Sun (warmer, longer daylight, 2 days after April pack meeting)"
   - "Service: Scouting for Food in November (door hangers 11/5, collection 11/14)"

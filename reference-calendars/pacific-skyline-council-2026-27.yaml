@@ -25,51 +25,11 @@ recurring_meetings:
       - 2027-04-01
       - 2027-05-06
 
-  stanford_district_committee:
-    schedule: "Third Thursday of each month"
-    location: Virtual
-    dates:
-      - 2026-07-16
-      - 2026-08-20
-      - 2026-09-17
-      - 2026-10-15
-      - 2026-11-19
-      - 2026-12-17
-      - 2027-01-21
-      - 2027-02-18
-      - 2027-03-18
-      - 2027-04-15
-      - 2027-05-20  # not listed but pattern
+  # District Committee, Commissioners, and Eagle Boards removed —
+  # these are district-level volunteer roles, not relevant for pack planning.
+  # Only Roundtable (above) is attended by pack leaders.
 
-  stanford_commissioners:
-    schedule: "First Thursday of each month"
-    location: Virtual
-    dates:
-      - 2026-09-03
-      - 2026-10-01
-      - 2026-11-05
-      - 2026-12-03
-      - 2027-01-07
-      - 2027-02-04
-      - 2027-03-04
-      - 2027-04-01
-      - 2027-05-06
-
-  stanford_eagle_boards:
-    schedule: "Fourth Thursday of each month"
-    location: "Palo Alto Service Center (in person)"
-    dates:
-      - 2026-07-23
-      - 2026-08-27
-      - 2026-09-24
-      - 2026-10-22
-      - 2026-11-26
-      - 2026-12-24
-      - 2027-01-28
-      - 2027-02-25
-      - 2027-03-25
-      - 2027-04-22
-      - 2027-05-27
+  # Eagle Boards (4th Thursday) also removed — district-level only.
 
 # ============================================================================
 # COUNCIL & CUB SCOUT EVENTS (Chronological)
