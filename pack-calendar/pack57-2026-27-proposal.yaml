@@ -513,28 +513,17 @@ may:
       Plan 2027-2028 program year. Gather parent input on
       activities, camping, schedule preferences.
 
-  - date: 2027-05-10  # Sat
-    day: Saturday
-    event: "Water Bottle Rocket Academy"
-    type: special_event
-    location: Addison Elementary School
-    time: "10:00 AM - 12:00 PM"
-    notes: >
-      Community recruiting event! Hands-on STEM fun with water bottle rockets
-      using vinegar and baking soda. Perfect for rising kindergarteners and
-      new families. Info table, pack calendar distribution, current scouts
-      in uniform to help and answer questions.
-
   - date: 2027-05-13  # Thu
     day: Thursday
-    event: Final Pack Meeting / Year-End Celebration
+    event: "Final Pack Meeting: Water Bottle Rocket Academy & Awards"
     type: pack_meeting
     time: "6:30 PM"
     location: Addison Elementary School
     notes: >
-      2nd Thursday. Awards ceremony. Bridging ceremony for
-      advancing scouts. Recognize volunteers.
-      Announce summer activities.
+      2nd Thursday. Final meeting of the year combines STEM fun with awards!
+      Water bottle rocket activity (vinegar & baking soda), awards ceremony,
+      bridging ceremony for advancing scouts, volunteer recognition.
+      Community recruiting: invite rising kindergarteners & new families.
 
   - date: 2027-05-17  # Mon
     day: Monday
