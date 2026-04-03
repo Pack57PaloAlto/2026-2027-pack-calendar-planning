@@ -148,14 +148,15 @@ october:
       Hype up fall camping next weekend (Oct 17-18)!
       Note: Sharad Navratri (Hindu, Oct 10-18) is ongoing — awareness only.
 
-  - date: 2026-10-17  # Sat
-    day: Saturday
-    event: "FALL CAMPING TRIP (Sat-Sun Oct 17-18)"
+  - date: 2026-10-16  # Fri
+    day: Friday
+    event: "FALL CAMPING TRIP (Fri-Sun Oct 16-18)"
     type: camping
     location: "TBD — committee to decide"
+    end: "2026-10-18"
     notes: >
-      Pack fall camping trip. No school conflicts, not a long weekend,
-      2 days after pack meeting, 2 weeks before Halloween.
+      Pack fall camping trip — TWO NIGHTS! Friday evening arrival through
+      Sunday departure. No school conflicts, great for building pack bonds.
       Note: Overlaps with tail end of Sharad Navratri (Hindu) — some
       families may observe. Dussehra is Mon 10/19.
       LOCATION OPTIONS:
