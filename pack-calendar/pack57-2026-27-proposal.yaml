@@ -90,6 +90,17 @@ september:
     type: conflict
     notes: "Day of Atonement — holiest day in Judaism. Hausner & JCC closed."
 
+  - date: 2026-09-26  # Sat
+    day: Saturday
+    event: "Pack 57 Stanford Football Day"
+    type: special_event
+    location: Stanford Stadium
+    time: "TBD (game time)"
+    notes: >
+      Stanford vs. Georgia Tech (home game). Family-friendly pack outing.
+      Group tickets, tailgate, wear Pack 57 colors. Great way to welcome
+      new families and showcase pack spirit!
+
   - date: 2026-09-28  # Mon
     day: Monday
     event: Den Meetings Begin (week of)
@@ -315,6 +326,17 @@ january:
       Kits distributed at Dec meeting; Build #1 was Dec 12, Build #2 is Feb 6.
       Note: Makar Sankranti / Pongal (Hindu harvest) same day — awareness only.
 
+  - date: 2027-01-25  # Sat
+    day: Saturday
+    event: "Palo Alto Junior Museum & Zoo Trip"
+    type: special_event
+    location: Palo Alto Junior Museum & Zoo
+    time: "10:00 AM - 2:00 PM"
+    notes: >
+      Family-friendly winter activity. Educational fun for all ages.
+      Pack lunch or visit nearby restaurants. Great for new families
+      to connect and explore local Palo Alto attractions together.
+
 # ============================================================================
 # FEBRUARY 2027
 # ============================================================================
@@ -521,6 +543,18 @@ may:
       Also Stanford District Roundtable same evening.
       Plan 2027-2028 program year. Gather parent input on
       activities, camping, schedule preferences.
+
+  - date: 2027-05-10  # Sat
+    day: Saturday
+    event: "Water Bottle Rocket Academy"
+    type: special_event
+    location: Addison Elementary School
+    time: "10:00 AM - 12:00 PM"
+    notes: >
+      Community recruiting event! Hands-on STEM fun with water bottle rockets
+      using vinegar and baking soda. Perfect for rising kindergarteners and
+      new families. Info table, pack calendar distribution, current scouts
+      in uniform to help and answer questions.
 
   - date: 2027-05-13  # Thu
     day: Thursday
